@@ -1,4 +1,4 @@
-[!ros-bar-chart-race](race.gif)
+![ros-bar-chart-race](race.gif)
 
 Forked from https://github.com/ytdec/bar-chart-race.
 
