@@ -4,7 +4,13 @@ Forked from https://github.com/ytdec/bar-chart-race.
 
 Uses https://github.com/DLu/ros_metrics to gather data.
 
-# Run
+# Live
+
+Smoother than the gif:
+
+https://louise.world/ros-bar-chart-race/index.html
+
+# Run locally
 
 ~~~
 git clone https://github.com/chapulina/ros-bar-chart-race
