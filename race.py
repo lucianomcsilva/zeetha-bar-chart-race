@@ -132,7 +132,7 @@ if __name__ == '__main__':
 
             previous_month = month
 
-        path = '/tmp/race.csv'
+        path = 'race.csv'
         print('Writing to file [', path, ']')
         csv = open(path,"w+")
         csv.write('name,value,year,lastValue,rank\n')
