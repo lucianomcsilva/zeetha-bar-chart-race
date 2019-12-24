@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import datetime
 import math
-from ros_metrics.rosdistro import get_rosdistro_repo, classify_commit
+from ros_metrics.ros_metrics.rosdistro import get_rosdistro_repo, classify_commit
 from tqdm import tqdm
 
 # Distros

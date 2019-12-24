@@ -1,6 +1,24 @@
-Bar chart race using D3js
+[!ros-bar-chart-race](race.gif)
 
-## Examples
+Forked from https://github.com/ytdec/bar-chart-race.
 
-### FIFA World Cup - Top 10 Goalscorers by Country
-https://www.youtube.com/watch?v=kowHBCFWPig
+Uses https://github.com/DLu/ros_metrics to gather data.
+
+# Run
+
+~~~
+git clone https://github.com/chapulina/ros-bar-chart-race
+cd ros-bar-chart-race
+firefox index.html
+~~~
+
+# Generate data
+
+:warning: This takes several hours.
+
+~~~
+cd ros-bar-chart-race
+git clone https://github.com/DLu/ros_metrics
+cd ros_metrics
+python3 ../race.py
+~~~

@@ -1,16 +1,16 @@
-
 <!DOCTYPE html>
 <head>
    <meta charset="utf-8">
    <script src="https://d3js.org/d3.v5.min.js"></script>
    <style>
    text{
-      font-size: 16px;
-      font-family: Open Sans, sans-serif;
+       font-size: 16px;
+       font-family: Open Sans, sans-serif;
    }
     text.title{
-       font-size: 24px;
+       font-size: 30px;
        font-weight: 500;
+       fill: #2e4061
     }
     text.subTitle{
        font-weight: 500;
@@ -22,11 +22,15 @@
        fill: #777777;
     }
     text.label{
+       font-size: 14px;
        font-weight: 600;
+       fill: #ffffff;
     }
 
     text.valueLabel{
        font-weight: 300;
+       font-size: 14px;
+       fill: #ffffff;
     }
 
     text.yearText{
@@ -55,14 +59,92 @@
 
 <body>
    <script>
-      // Feel free to change or delete any of the code you see in this editor!
-      var svg = d3.select("body").append("svg")
+
+function distro_color(distro)
+{
+  if (distro === 'fuerte')
+    return '#be6d7e'
+  if (distro === 'groovy')
+    return '#e13176'
+  if (distro === 'hydro')
+    return '#1eb4c7'
+  if (distro === 'indigo')
+    return '#051a3a'
+  if (distro === 'jade')
+    return '#00a368'
+  if (distro === 'kinetic')
+    return '#000000'
+  if (distro === 'lunar')
+    return '#676767'
+  if (distro === 'melodic')
+    return '#5782b8'
+  if (distro === 'noetic')
+    return '#ffffff'
+  if (distro === 'ardent')
+    return '#005703'
+  if (distro === 'bouncy')
+    return '#505050'
+  if (distro === 'crystal')
+    return '#4e3a7b'
+  if (distro === 'dashing')
+    return '#47bfc4'
+  if (distro === 'eloquent')
+    return '#228b22'
+  if (distro === 'foxy')
+    return '#000000'
+}
+
+var months = [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec"
+];
+
+function distro_turtle(distro)
+{
+  if (distro === 'fuerte' ||
+      distro === 'groovy' ||
+      distro === 'hydro' ||
+      distro === 'indigo' ||
+      distro === 'jade' ||
+      distro === 'kinetic' ||
+      distro === 'lunar' ||
+      distro === 'melodic')
+  {
+    return 'https://raw.githubusercontent.com/ros/ros_tutorials/melodic-devel/turtlesim/images/'
+           + distro + '.png';
+  }
+
+  if (distro === 'ardent' ||
+      distro === 'bouncy' ||
+      distro === 'crystal' ||
+      distro === 'dashing' ||
+      distro === 'eloquent')
+  {
+    return 'https://raw.githubusercontent.com/ros/ros_tutorials/eloquent-devel/turtlesim/images/'
+           + distro + '.png';
+  }
+}
+
+function month_decimal(year, month)
+{
+  return Math.floor(100*(year + month / 12))/100
+}
+
+var svg = d3.select("body").append("svg")
    .attr("width", 960)
    .attr("height", 600);
 
-
-
-var tickDuration = 500;
+var tickDuration = 1000;
 
 var top_n = 12;
 var height = 600;
@@ -72,41 +154,52 @@ const margin = {
    top: 80,
    right: 0,
    bottom: 5,
-   left: 0
+   left: 60
 };
 
 let barPadding = (height-(margin.bottom+margin.top))/(top_n*5);
 
+let logo = svg.append('image')
+   .attr('width', 30)
+   .attr('height', 30)
+   .attr('x', 0)
+   .attr('y', 0)
+   .attr('href', 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Robot_Operating_System_logo.svg/600px-Robot_Operating_System_logo.svg.png');
+
 let title = svg.append('text')
    .attr('class', 'title')
-   .attr('y', 24)
-   .html('18 years of Interbrand’s Top Global Brands');
+   .attr('x', 33)
+   .attr('y', 26)
+   .html('ROS distros');
 
 let subTitle = svg.append("text")
    .attr("class", "subTitle")
    .attr("y", 55)
-   .html("Brand value, $m");
+   .html("Total rosdistro commits");
 
 let caption = svg.append('text')
    .attr('class', 'caption')
    .attr('x', width)
-   .attr('y', height-5)
+   .attr('y', height-3)
    .style('text-anchor', 'end')
-   .html('Source: Interbrand');
+   .html('Source: https://github.com/ros/rosdistro/');
 
-let year = 2000;
+let year_number = 2012;
+let month_number = 1;
+let year = month_decimal(year_number, month_number)
 
-d3.csv('brand_values.csv').then(function(data) {
+d3.csv('race.csv').then(function(data) {
    //if (error) throw error;
 
    console.log(data);
 
    data.forEach(d => {
       d.value = +d.value,
-         d.lastValue = +d.lastValue,
-         d.value = isNaN(d.value) ? 0 : d.value,
-         d.year = +d.year,
-         d.colour = d3.hsl(Math.random()*360,0.75,0.75)
+      d.lastValue = +d.lastValue,
+      d.value = isNaN(d.value) ? 0 : d.value,
+      d.year = +d.year,
+      d.colour = d3.hsl(distro_color(d.name)),
+      d.prettyName = d.name.charAt(0).toUpperCase() + d.name.slice(1)
    });
 
    console.log(data);
@@ -118,6 +211,7 @@ d3.csv('brand_values.csv').then(function(data) {
    yearSlice.forEach((d,i) => d.rank = i);
 
    console.log('yearSlice: ', yearSlice)
+   console.log('max: ', d3.max(yearSlice, d => d.value))
 
    let x = d3.scaleLinear()
       .domain([0, d3.max(yearSlice, d => d.value)])
@@ -157,23 +251,38 @@ d3.csv('brand_values.csv').then(function(data) {
       .append('text')
       .attr('class', 'label')
       .attr('x', d => x(d.value)-8)
-      .attr('y', d => y(d.rank)+5+((y(1)-y(0))/2)+1)
+      .attr('y', d => y(d.rank)+5+((y(1)-y(0))/2)-8)
       .style('text-anchor', 'end')
-      .html(d => d.name);
+      .html(d => d.prettyName);
+
+   svg.selectAll('image.turtle')
+      .data(yearSlice, d => d.name)
+      .enter()
+      .append("svg:image")
+      .attr('class', 'turtle')
+      .attr('width', 30)
+      .attr('height', 30)
+      .attr('x', d => x(d.value)+30)
+      .attr('y', d => y(d.rank)+8)
+      .attr('transform', d => 'rotate(90, ' +
+                              (x(d.value)+30).toString() + ', ' +
+                              (y(d.rank)+8).toString() + ')')
+      .attr('href', d => distro_turtle(d.name));
 
    svg.selectAll('text.valueLabel')
       .data(yearSlice, d => d.name)
       .enter()
       .append('text')
       .attr('class', 'valueLabel')
-      .attr('x', d => x(d.value)+5)
-      .attr('y', d => y(d.rank)+5+((y(1)-y(0))/2)+1)
+      .attr('x', d => x(d.value)-8)
+      .attr('y', d => y(d.rank)+5+((y(1)-y(0))/2)+8)
+      .style('text-anchor', 'end')
       .text(d => d3.format(',.0f')(d.lastValue));
 
    let yearText = svg.append('text')
       .attr('class', 'yearText')
       .attr('x', width-margin.right)
-      .attr('y', height-25)
+      .attr('y', height-30)
       .style('text-anchor', 'end')
       .html(~~year)
       .call(halo, 10);
@@ -186,9 +295,9 @@ d3.csv('brand_values.csv').then(function(data) {
 
       yearSlice.forEach((d,i) => d.rank = i);
 
-      //console.log('IntervalYear: ', yearSlice);
+      // console.log('year: ', year, ' IntervalYear: ', yearSlice);
 
-      x.domain([0, d3.max(yearSlice, d => d.value)]); 
+      x.domain([0, d3.max(yearSlice, d => d.value)]);
 
       svg.select('.xAxis')
          .transition()
@@ -238,19 +347,19 @@ d3.csv('brand_values.csv').then(function(data) {
          .attr('x', d => x(d.value)-8)
          .attr('y', d => y(top_n+1)+5+((y(1)-y(0))/2))
          .style('text-anchor', 'end')
-         .html(d => d.name)    
+         .html(d => d.prettyName)
          .transition()
          .duration(tickDuration)
          .ease(d3.easeLinear)
-         .attr('y', d => y(d.rank)+5+((y(1)-y(0))/2)+1);
-
+         .attr('y', d => y(d.rank)+5+((y(1)-y(0))/2)-8)
 
       labels
          .transition()
          .duration(tickDuration)
          .ease(d3.easeLinear)
          .attr('x', d => x(d.value)-8)
-         .attr('y', d => y(d.rank)+5+((y(1)-y(0))/2)+1);
+         .attr('y', d => y(d.rank)+5+((y(1)-y(0))/2)-8)
+         .style('fill', d => (d.value == 0 || x(d.value) > 120) ? '#ffffff' : '#cccccc')
 
       labels
          .exit()
@@ -260,8 +369,6 @@ d3.csv('brand_values.csv').then(function(data) {
          .attr('x', d => x(d.value)-8)
          .attr('y', d => y(top_n+1)+5)
          .remove();
-
-
 
       let valueLabels = svg.selectAll('.valueLabel').data(yearSlice, d => d.name);
 
@@ -269,9 +376,10 @@ d3.csv('brand_values.csv').then(function(data) {
          .enter()
          .append('text')
          .attr('class', 'valueLabel')
-         .attr('x', d => x(d.value)+5)
-         .attr('y', d => y(top_n+1)+5)
+         .attr('x', d => x(d.value)-8)
+         .attr('y', d => y(top_n+1)+8)
          .text(d => d3.format(',.0f')(d.lastValue))
+         .style('text-anchor', 'end')
          .transition()
          .duration(tickDuration)
          .ease(d3.easeLinear)
@@ -281,8 +389,9 @@ d3.csv('brand_values.csv').then(function(data) {
          .transition()
          .duration(tickDuration)
          .ease(d3.easeLinear)
-         .attr('x', d => x(d.value)+5)
-         .attr('y', d => y(d.rank)+5+((y(1)-y(0))/2)+1)
+         .attr('x', d => x(d.value)-8)
+         .attr('y', d => y(d.rank)+5+((y(1)-y(0))/2)+8)
+         .style('fill', d => (d.value == 0 || x(d.value) > 120) ? '#ffffff' : '#cccccc')
          .tween("text", function(d) {
             let i = d3.interpolateRound(d.lastValue, d.value);
             return function(t) {
@@ -290,21 +399,74 @@ d3.csv('brand_values.csv').then(function(data) {
             };
          });
 
-
       valueLabels
          .exit()
          .transition()
          .duration(tickDuration)
          .ease(d3.easeLinear)
-         .attr('x', d => x(d.value)+5)
-         .attr('y', d => y(top_n+1)+5)
+         .attr('x', d => x(d.value)-8)
+         .attr('y', d => y(top_n+1)+8)
          .remove();
 
-      yearText.html(~~year);
+      let turtles = svg.selectAll('.turtle').data(yearSlice, d => d.name);
 
-      if(year == 2001) ticker.stop();
-      year = d3.format('.1f')((+year) + 0.1);
-   },tickDuration);
+      turtles
+         .enter()
+         .append("svg:image")
+         .attr('width', 30)
+         .attr('height', 30)
+         .attr('href', d => distro_turtle(d.name))
+         .attr('class', 'turtle')
+         .attr('x', d => x(d.value)+30)
+         .attr('y', d => y(top_n+1)+10)
+         .attr('transform', d => 'rotate(90, ' +
+                                 (x(d.value)+30).toString() + ', ' +
+                                 (y(d.rank)+8).toString() + ')')
+         .text(d => d3.format(',.0f')(d.lastValue))
+         .transition()
+         .duration(tickDuration)
+         .ease(d3.easeLinear)
+         .attr('y', d => y(d.rank)+8);
+
+      turtles
+         .transition()
+         .duration(tickDuration)
+         .ease(d3.easeLinear)
+         .attr('x', d => x(d.value)+30)
+         .attr('y', d => y(d.rank)+8)
+         .attr('transform', d => 'rotate(90, ' +
+                                 (x(d.value)+30).toString() + ', ' +
+                                 (y(d.rank)+8).toString() + ')')
+
+      turtles
+         .exit()
+         .transition()
+         .duration(tickDuration)
+         .ease(d3.easeLinear)
+         .attr('x', d => x(d.value)+30)
+         .attr('y', d => y(top_n+1)+10)
+         .attr('transform', d => 'rotate(90, ' +
+                                 (x(d.value)+30).toString() + ', ' +
+                                 (y(d.rank)+8).toString() + ')')
+         .remove();
+
+      yearText.html(months[month_number-1] + ' ' + year_number);
+
+      if(year == 2020)
+        ticker.stop();
+
+      if (month_number < 12)
+      {
+        month_number += 1;
+      }
+      else
+      {
+        month_number = 1
+        year_number += 1
+      }
+
+      year = month_decimal(year_number, month_number);
+   }, tickDuration);
 
 });
 
@@ -316,7 +478,7 @@ const halo = function(text, strokeWidth) {
       .style('stroke-linejoin', 'round')
       .style('opacity', 1);
 
-}   
+}
 
 
    </script>
