@@ -1,0 +1,5224 @@
+{
+	"scores": {
+		"Algeria": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/23px-Flag_of_Algeria.svg.png",
+			"Salah Assad": {
+				"1982": 2
+			},
+			"Abdelmoumene Djabou": {
+				"2014": 2
+			},
+			"Islam Slimani": {
+				"2014": 2
+			},
+			"Lakhdar Belloumi": {
+				"1982": 1
+			},
+			"Tedj Bensaoula": {
+				"1982": 1
+			},
+			"Yacine Brahimi": {
+				"2014": 1
+			},
+			"Sofiane Feghouli": {
+				"2014": 1
+			},
+			"Rafik Halliche": {
+				"2014": 1
+			},
+			"Rabah Madjer": {
+				"1982": 1
+			},
+			"Djamel Zidane": {
+				"1986": 1
+			},
+			"_total": {
+				"1982": 5,
+				"1986": 1,
+				"2010": 0,
+				"2014": 7
+			}
+		},
+		"Angola": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Angola.svg/23px-Flag_of_Angola.svg.png",
+			"Flávio": {
+				"2006": 1
+			},
+			"_total": {
+				"2006": 1
+			}
+		},
+		"Argentina": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/23px-Flag_of_Argentina.svg.png",
+			"Gabriel Batistuta": {
+				"1994": 4,
+				"1998": 5,
+				"2002": 1
+			},
+			"Diego Maradona": {
+				"1982": 2,
+				"1986": 5,
+				"1994": 1
+			},
+			"Guillermo Stábile": {
+				"1930": 8
+			},
+			"Mario Kempes": {
+				"1978": 6
+			},
+			"Lionel Messi": {
+				"2006": 1,
+				"2014": 4,
+				"2018": 1
+			},
+			"Gonzalo Higuaín": {
+				"2010": 4,
+				"2014": 1
+			},
+			"Daniel Bertoni": {
+				"1978": 2,
+				"1982": 2
+			},
+			"Claudio Caniggia": {
+				"1990": 2,
+				"1994": 2
+			},
+			"Hernán Crespo": {
+				"2002": 1,
+				"2006": 3
+			},
+			"René Houseman": {
+				"1974": 3,
+				"1978": 1
+			},
+			"Leopoldo Luque": {
+				"1978": 4
+			},
+			"Jorge Valdano": {
+				"1986": 4
+			},
+			"Luis Artime": {
+				"1966": 3
+			},
+			"Jorge Burruchaga": {
+				"1986": 2,
+				"1990": 1
+			},
+			"Omar Oreste Corbatta": {
+				"1958": 3
+			},
+			"Daniel Passarella": {
+				"1978": 1,
+				"1982": 2
+			},
+			"Carlos Peucelle": {
+				"1930": 3
+			},
+			"Maxi Rodríguez": {
+				"2006": 3
+			},
+			"Carlos Tevez": {
+				"2006": 1,
+				"2010": 2
+			},
+			"Sergio Agüero": {
+				"2018": 2
+			},
+			"Ángel Di María": {
+				"2014": 1,
+				"2018": 1
+			},
+			"Luis Monti": {
+				"1930": 2
+			},
+			"Ariel Ortega": {
+				"1998": 2
+			},
+			"Marcos Rojo": {
+				"2014": 1,
+				"2018": 1
+			},
+			"Héctor Yazalde": {
+				"1974": 2
+			},
+			"Adolfo Zumelzú": {
+				"1930": 2
+			},
+			"Osvaldo Ardiles": {
+				"1982": 1
+			},
+			"Ludovico Avio": {
+				"1958": 1
+			},
+			"Roberto Ayala": {
+				"2006": 1
+			},
+			"Rubén Ayala": {
+				"1974": 1
+			},
+			"Carlos Babington": {
+				"1974": 1
+			},
+			"Abel Balbo": {
+				"1994": 1
+			},
+			"Ernesto Belis": {
+				"1934": 1
+			},
+			"Miguel Ángel Brindisi": {
+				"1974": 1
+			},
+			"José Luis Brown": {
+				"1986": 1
+			},
+			"Esteban Cambiasso": {
+				"2006": 1
+			},
+			"Martín Demichelis": {
+				"2010": 1
+			},
+			"Ramón Díaz": {
+				"1982": 1
+			},
+			"Mario Evaristo": {
+				"1930": 1
+			},
+			"Héctor Facundo": {
+				"1962": 1
+			},
+			"Alberto Galateo": {
+				"1934": 1
+			},
+			"Gabriel Heinze": {
+				"2010": 1
+			},
+			"Ramón Heredia": {
+				"1974": 1
+			},
+			"Claudio López": {
+				"1998": 1
+			},
+			"Norberto Menéndez": {
+				"1958": 1
+			},
+			"Gabriel Mercado": {
+				"2018": 1
+			},
+			"Pedro Monzón": {
+				"1990": 1
+			},
+			"Ermindo Onega": {
+				"1966": 1
+			},
+			"Martín Palermo": {
+				"2010": 1
+			},
+			"Pedro Pasculli": {
+				"1986": 1
+			},
+			"Mauricio Pineda": {
+				"1998": 1
+			},
+			"Oscar Ruggeri": {
+				"1986": 1
+			},
+			"José Sanfilippo": {
+				"1962": 1
+			},
+			"Javier Saviola": {
+				"2006": 1
+			},
+			"Alejandro Scopelli": {
+				"1930": 1
+			},
+			"Alberto Tarantini": {
+				"1978": 1
+			},
+			"Pedro Troglio": {
+				"1990": 1
+			},
+			"Francisco Varallo": {
+				"1930": 1
+			},
+			"Javier Zanetti": {
+				"1998": 1
+			},
+			"Own goals": {
+				"2010": 1,
+				"2014": 1
+			},
+			"_total": {
+				"1930": 18,
+				"1934": 2,
+				"1958": 5,
+				"1962": 2,
+				"1966": 4,
+				"1974": 9,
+				"1978": 15,
+				"1982": 8,
+				"1986": 14,
+				"1990": 5,
+				"1994": 8,
+				"1998": 10,
+				"2002": 2,
+				"2006": 11,
+				"2010": 10,
+				"2014": 8,
+				"2018": 6
+			}
+		},
+		"Australia": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/23px-Flag_of_Australia_%28converted%29.svg.png",
+			"Tim Cahill": {
+				"2006": 2,
+				"2010": 1,
+				"2014": 2
+			},
+			"Mile Jedinak": {
+				"2014": 1,
+				"2018": 2
+			},
+			"Brett Holman": {
+				"2010": 2
+			},
+			"John Aloisi": {
+				"2006": 1
+			},
+			"Harry Kewell": {
+				"2006": 1
+			},
+			"Craig Moore": {
+				"2006": 1
+			},
+			"_total": {
+				"1974": 0,
+				"2006": 5,
+				"2010": 3,
+				"2014": 3,
+				"2018": 2
+			}
+		},
+		"Austria": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/23px-Flag_of_Austria.svg.png",
+			"Erich Probst": {
+				"1954": 6
+			},
+			"Hans Krankl": {
+				"1978": 4,
+				"1982": 1
+			},
+			"Alfred Körner": {
+				"1954": 2,
+				"1958": 1
+			},
+			"Walter Schachner": {
+				"1978": 1,
+				"1982": 2
+			},
+			"Ernst Stojaspal": {
+				"1954": 3
+			},
+			"Theodor Wagner": {
+				"1954": 3
+			},
+			"Johann Horvath": {
+				"1934": 2
+			},
+			"Ernst Ocwirk": {
+				"1954": 2
+			},
+			"Josef Bican": {
+				"1934": 1
+			},
+			"Andreas Herzog": {
+				"1998": 1
+			},
+			"Reinhold Hintermaier": {
+				"1982": 1
+			},
+			"Karl Koller": {
+				"1958": 1
+			},
+			"Erich Obermayer": {
+				"1978": 1
+			},
+			"Andreas Ogris": {
+				"1990": 1
+			},
+			"Bruno Pezzey": {
+				"1982": 1
+			},
+			"Toni Polster": {
+				"1998": 1
+			},
+			"Gerhard Rodax": {
+				"1990": 1
+			},
+			"Toni Schall": {
+				"1934": 1
+			},
+			"Karl Sesta": {
+				"1934": 1
+			},
+			"Matthias Sindelar": {
+				"1934": 1
+			},
+			"Ivica Vastić": {
+				"1998": 1
+			},
+			"Karl Zischek": {
+				"1934": 1
+			},
+			"Own goals": {
+				"1954": 1,
+				"1978": 1
+			},
+			"_total": {
+				"1934": 7,
+				"1954": 17,
+				"1958": 2,
+				"1978": 7,
+				"1982": 5,
+				"1990": 2,
+				"1998": 3
+			}
+		},
+		"Belgium": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/23px-Flag_of_Belgium_%28civil%29.svg.png",
+			"Romelu Lukaku": {
+				"2014": 1,
+				"2018": 4
+			},
+			"Marc Wilmots": {
+				"1998": 2,
+				"2002": 3
+			},
+			"Jan Ceulemans": {
+				"1986": 3,
+				"1990": 1
+			},
+			"Léopold Anoul": {
+				"1954": 3
+			},
+			"Nico Claesen": {
+				"1986": 3
+			},
+			"Eden Hazard": {
+				"2018": 3
+			},
+			"Enzo Scifo": {
+				"1986": 2,
+				"1990": 1
+			},
+			"Philippe Albert": {
+				"1994": 2
+			},
+			"Kevin De Bruyne": {
+				"2014": 1,
+				"2018": 1
+			},
+			"Marc Degryse": {
+				"1990": 1,
+				"1994": 1
+			},
+			"Marouane Fellaini": {
+				"2014": 1,
+				"2018": 1
+			},
+			"Raoul Lambert": {
+				"1970": 2
+			},
+			"Dries Mertens": {
+				"2014": 1,
+				"2018": 1
+			},
+			"Wilfried Van Moer": {
+				"1970": 2
+			},
+			"Erwin Vandenbergh": {
+				"1982": 1,
+				"1986": 1
+			},
+			"Jan Vertonghen": {
+				"2014": 1,
+				"2018": 1
+			},
+			"Bernard Voorhoof": {
+				"1934": 2
+			},
+			"Michy Batshuayi": {
+				"2018": 1
+			},
+			"Nacer Chadli": {
+				"2018": 1
+			},
+			"Lei Clijsters": {
+				"1990": 1
+			},
+			"Ludo Coeck": {
+				"1982": 1
+			},
+			"Henri Coppens": {
+				"1954": 1
+			},
+			"Alexandre Czerniatynski": {
+				"1982": 1
+			},
+			"Michel De Wolf": {
+				"1990": 1
+			},
+			"Stéphane Demol": {
+				"1986": 1
+			},
+			"Georges Grün": {
+				"1994": 1
+			},
+			"Henri Isemborghs": {
+				"1938": 1
+			},
+			"Adnan Januzaj": {
+				"2018": 1
+			},
+			"Thomas Meunier": {
+				"2018": 1
+			},
+			"Luc Nilis": {
+				"1998": 1
+			},
+			"Divock Origi": {
+				"2014": 1
+			},
+			"Wesley Sonck": {
+				"2002": 1
+			},
+			"Peter Van Der Heyden": {
+				"2002": 1
+			},
+			"Franky Vercauteren": {
+				"1986": 1
+			},
+			"Patrick Vervoort": {
+				"1990": 1
+			},
+			"Daniel Veyt": {
+				"1986": 1
+			},
+			"Johan Walem": {
+				"2002": 1
+			},
+			"Own goals": {
+				"1954": 1,
+				"2018": 1
+			},
+			"_total": {
+				"1930": 0,
+				"1934": 2,
+				"1938": 1,
+				"1954": 5,
+				"1970": 4,
+				"1982": 3,
+				"1986": 12,
+				"1990": 6,
+				"1994": 4,
+				"1998": 3,
+				"2002": 6,
+				"2014": 6,
+				"2018": 16
+			}
+		},
+		"Bolivia": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/de/Flag_of_Bolivia_%28state%29.svg/22px-Flag_of_Bolivia_%28state%29.svg.png",
+			"Erwin Sánchez": {
+				"1994": 1
+			},
+			"_total": {
+				"1930": 0,
+				"1950": 0,
+				"1994": 1
+			}
+		},
+		"Bosnia and Herzegovina": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/23px-Flag_of_Bosnia_and_Herzegovina.svg.png",
+			"Edin Džeko": {
+				"2014": 1
+			},
+			"Vedad Ibišević": {
+				"2014": 1
+			},
+			"Miralem Pjanić": {
+				"2014": 1
+			},
+			"Avdija Vršajević": {
+				"2014": 1
+			},
+			"_total": {
+				"2014": 4
+			}
+		},
+		"Brazil": {
+			"_img": "//upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/22px-Flag_of_Brazil.svg.png",
+			"Ronaldo": {
+				"1998": 4,
+				"2002": 8,
+				"2006": 3
+			},
+			"Pelé": {
+				"1958": 6,
+				"1962": 1,
+				"1966": 1,
+				"1970": 4
+			},
+			"Jairzinho": {
+				"1970": 7,
+				"1974": 2
+			},
+			"Vavá": {
+				"1958": 5,
+				"1962": 4
+			},
+			"Ademir": {
+				"1950": 8
+			},
+			"Leônidas": {
+				"1934": 1,
+				"1938": 7
+			},
+			"Rivaldo": {
+				"1998": 3,
+				"2002": 5
+			},
+			"Careca": {
+				"1986": 5,
+				"1990": 2
+			},
+			"Bebeto": {
+				"1994": 3,
+				"1998": 3
+			},
+			"Neymar": {
+				"2014": 4,
+				"2018": 2
+			},
+			"Rivellino": {
+				"1970": 3,
+				"1974": 3
+			},
+			"Garrincha": {
+				"1962": 4,
+				"1966": 1
+			},
+			"Romário": {
+				"1994": 5
+			},
+			"Zico": {
+				"1978": 1,
+				"1982": 4
+			},
+			"Chico": {
+				"1950": 4
+			},
+			"Sócrates": {
+				"1982": 2,
+				"1986": 2
+			},
+			"Amarildo": {
+				"1962": 3
+			},
+			"Baltazar": {
+				"1950": 2,
+				"1954": 1
+			},
+			"César Sampaio": {
+				"1998": 3
+			},
+			"Didi": {
+				"1954": 2,
+				"1958": 1
+			},
+			"Dirceu": {
+				"1978": 3
+			},
+			"Falcão": {
+				"1982": 3
+			},
+			"Luís Fabiano": {
+				"2010": 3
+			},
+			"José Perácio": {
+				"1938": 3
+			},
+			"Preguinho": {
+				"1930": 3
+			},
+			"Roberto Dinamite": {
+				"1978": 3
+			},
+			"Romeu": {
+				"1938": 3
+			},
+			"Tostão": {
+				"1966": 1,
+				"1970": 2
+			},
+			"Adriano": {
+				"2006": 2
+			},
+			"Philippe Coutinho": {
+				"2018": 2
+			},
+			"David Luiz": {
+				"2014": 2
+			},
+			"Éder": {
+				"1982": 2
+			},
+			"Elano": {
+				"2010": 2
+			},
+			"Fred": {
+				"2006": 1,
+				"2014": 1
+			},
+			"Jair": {
+				"1950": 2
+			},
+			"Josimar": {
+				"1986": 2
+			},
+			"Julinho": {
+				"1954": 2
+			},
+			"Mazola": {
+				"1958": 2
+			},
+			"Moderato": {
+				"1930": 2
+			},
+			"Müller": {
+				"1990": 2
+			},
+			"Nelinho": {
+				"1978": 2
+			},
+			"Oscar": {
+				"1982": 1
+			},
+			"Pinga": {
+				"1954": 2
+			},
+			"Robinho": {
+				"2010": 2
+			},
+			"Ronaldinho": {
+				"2002": 2
+			},
+			"Serginho": {
+				"1982": 2
+			},
+			"Thiago Silva": {
+				"2014": 1,
+				"2018": 1
+			},
+			"Mário Zagallo": {
+				"1958": 1,
+				"1962": 1
+			},
+			"Zizinho": {
+				"1950": 2
+			},
+			"Alfredo": {
+				"1950": 1
+			},
+			"Renato Augusto": {
+				"2018": 1
+			},
+			"Branco": {
+				"1994": 1
+			},
+			"Carlos Alberto": {
+				"1970": 1
+			},
+			"Clodoaldo": {
+				"1970": 1
+			},
+			"Djalma Santos": {
+				"1954": 1
+			},
+			"Edinho": {
+				"1986": 1
+			},
+			"Edmílson": {
+				"2002": 1
+			},
+			"Fernandinho": {
+				"2014": 1
+			},
+			"Roberto Firmino": {
+				"2018": 1
+			},
+			"Friaça": {
+				"1950": 1
+			},
+			"Gérson": {
+				"1970": 1
+			},
+			"Gilberto": {
+				"2006": 1
+			},
+			"Juan": {
+				"2010": 1
+			},
+			"Juninho": {
+				"2006": 1
+			},
+			"Júnior": {
+				"2002": 1
+			},
+			"Kaká": {
+				"2006": 1
+			},
+			"Maicon": {
+				"2010": 1
+			},
+			"Maneca": {
+				"1950": 1
+			},
+			"Márcio Santos": {
+				"1994": 1
+			},
+			"Nílton Santos": {
+				"1958": 1
+			},
+			"Paulinho": {
+				"2018": 1
+			},
+			"Raí": {
+				"1994": 1
+			},
+			"Reinaldo": {
+				"1978": 1
+			},
+			"Rildo": {
+				"1966": 1
+			},
+			"Roberto": {
+				"1938": 1
+			},
+			"Roberto Carlos": {
+				"2002": 1
+			},
+			"Zé Roberto": {
+				"2006": 1
+			},
+			"Zito": {
+				"1962": 1
+			},
+			"Own goals": {
+				"1950": 1,
+				"1998": 1
+			},
+			"_total": {
+				"1930": 5,
+				"1934": 1,
+				"1938": 14,
+				"1950": 22,
+				"1954": 8,
+				"1958": 16,
+				"1962": 14,
+				"1966": 4,
+				"1970": 19,
+				"1974": 6,
+				"1978": 10,
+				"1982": 15,
+				"1986": 10,
+				"1990": 4,
+				"1994": 11,
+				"1998": 14,
+				"2002": 18,
+				"2006": 10,
+				"2010": 9,
+				"2014": 11,
+				"2018": 8
+			}
+		},
+		"Bulgaria": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/23px-Flag_of_Bulgaria.svg.png",
+			"Hristo Stoichkov": {
+				"1994": 6
+			},
+			"Hristo Bonev": {
+				"1970": 1,
+				"1974": 1
+			},
+			"Yordan Letchkov": {
+				"1994": 2
+			},
+			"Nasko Sirakov": {
+				"1986": 1,
+				"1994": 1
+			},
+			"Georgi Asparuhov": {
+				"1966": 1
+			},
+			"Daniel Borimirov": {
+				"1994": 1
+			},
+			"Dinko Dermendzhiev": {
+				"1970": 1
+			},
+			"Plamen Getov": {
+				"1986": 1
+			},
+			"Todor Kolev": {
+				"1970": 1
+			},
+			"Emil Kostadinov": {
+				"1998": 1
+			},
+			"Asparuh Nikodimov": {
+				"1970": 1
+			},
+			"Georgi Sokolov": {
+				"1962": 1
+			},
+			"Dobromir Zhechev": {
+				"1970": 1
+			},
+			"Own goals": {
+				"1974": 1
+			},
+			"_total": {
+				"1962": 1,
+				"1966": 1,
+				"1970": 5,
+				"1974": 2,
+				"1986": 2,
+				"1994": 10,
+				"1998": 1
+			}
+		},
+		"Cameroon": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/23px-Flag_of_Cameroon.svg.png",
+			"Roger Milla": {
+				"1990": 4,
+				"1994": 1
+			},
+			"Samuel Eto'o": {
+				"2002": 1,
+				"2010": 2
+			},
+			"Patrick Mboma": {
+				"1998": 1,
+				"2002": 1
+			},
+			"François Omam-Biyik": {
+				"1990": 1,
+				"1994": 1
+			},
+			"Eugène Ekéké": {
+				"1990": 1
+			},
+			"David Embé": {
+				"1994": 1
+			},
+			"Emmanuel Kundé": {
+				"1990": 1
+			},
+			"Joël Matip": {
+				"2014": 1
+			},
+			"Grégoire Mbida": {
+				"1982": 1
+			},
+			"Pierre Njanka": {
+				"1998": 1
+			},
+			"_total": {
+				"1982": 1,
+				"1990": 7,
+				"1994": 3,
+				"1998": 2,
+				"2002": 2,
+				"2010": 2,
+				"2014": 1
+			}
+		},
+		"Canada": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/23px-Flag_of_Canada_%28Pantone%29.svg.png",
+			"_total": {
+				"1986": 0
+			}
+		},
+		"Chile": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/23px-Flag_of_Chile.svg.png",
+			"Leonel Sánchez": {
+				"1962": 4
+			},
+			"Marcelo Salas": {
+				"1998": 4
+			},
+			"Jean Beausejour": {
+				"2010": 1,
+				"2014": 1
+			},
+			"Atilio Cremaschi": {
+				"1950": 2
+			},
+			"Rubén Marcos": {
+				"1966": 2
+			},
+			"Jaime Ramírez": {
+				"1962": 2
+			},
+			"Eladio Rojas": {
+				"1962": 2
+			},
+			"Alexis Sánchez": {
+				"2014": 2
+			},
+			"Guillermo Subiabre": {
+				"1930": 2
+			},
+			"Jorge Toro": {
+				"1962": 2
+			},
+			"Carlos Vidal": {
+				"1930": 2
+			},
+			"Sergio Ahumada": {
+				"1974": 1
+			},
+			"Charles Aránguiz": {
+				"2014": 1
+			},
+			"Mark González": {
+				"2010": 1
+			},
+			"Juan Carlos Letelier": {
+				"1982": 1
+			},
+			"Rodrigo Millar": {
+				"2010": 1
+			},
+			"Gustavo Moscoso": {
+				"1982": 1
+			},
+			"Miguel Ángel Neira": {
+				"1982": 1
+			},
+			"Andrés Prieto": {
+				"1950": 1
+			},
+			"Fernando Riera": {
+				"1950": 1
+			},
+			"George Robledo": {
+				"1950": 1
+			},
+			"José Luis Sierra": {
+				"1998": 1
+			},
+			"Jorge Valdivia": {
+				"2014": 1
+			},
+			"Eduardo Vargas": {
+				"2014": 1
+			},
+			"Own goals": {
+				"1930": 1
+			},
+			"_total": {
+				"1930": 5,
+				"1950": 5,
+				"1962": 10,
+				"1966": 2,
+				"1974": 1,
+				"1982": 3,
+				"1998": 5,
+				"2010": 3,
+				"2014": 6
+			}
+		},
+		"China PR": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/23px-Flag_of_the_People%27s_Republic_of_China.svg.png",
+			"_total": {
+				"2002": 0
+			}
+		},
+		"Colombia": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/23px-Flag_of_Colombia.svg.png",
+			"James Rodríguez": {
+				"2014": 6
+			},
+			"Yerry Mina": {
+				"2018": 3
+			},
+			"Juan Cuadrado": {
+				"2014": 1,
+				"2018": 1
+			},
+			"Jackson Martínez": {
+				"2014": 2
+			},
+			"Juan Fernando Quintero": {
+				"2014": 1,
+				"2018": 1
+			},
+			"Bernardo Redín": {
+				"1990": 2
+			},
+			"Adolfo Valencia": {
+				"1994": 2
+			},
+			"Germán Aceros": {
+				"1962": 1
+			},
+			"Pablo Armero": {
+				"2014": 1
+			},
+			"Marcos Coll": {
+				"1962": 1
+			},
+			"Radamel Falcao": {
+				"2018": 1
+			},
+			"Hernán Gaviria": {
+				"1994": 1
+			},
+			"Teófilo Gutiérrez": {
+				"2014": 1
+			},
+			"Marino Klinger": {
+				"1962": 1
+			},
+			"Harold Lozano": {
+				"1994": 1
+			},
+			"Léider Preciado": {
+				"1998": 1
+			},
+			"Antonio Rada": {
+				"1962": 1
+			},
+			"Freddy Rincón": {
+				"1990": 1
+			},
+			"Carlos Valderrama": {
+				"1990": 1
+			},
+			"Francisco Zuluaga": {
+				"1962": 1
+			},
+			"_total": {
+				"1962": 5,
+				"1990": 4,
+				"1994": 4,
+				"1998": 1,
+				"2014": 12,
+				"2018": 6
+			}
+		},
+		"Costa Rica": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Costa_Rica.svg/23px-Flag_of_Costa_Rica.svg.png",
+			"Rónald Gómez": {
+				"2002": 2,
+				"2006": 1
+			},
+			"Paulo Wanchope": {
+				"2002": 1,
+				"2006": 2
+			},
+			"Bryan Ruiz": {
+				"2014": 2
+			},
+			"Joel Campbell": {
+				"2014": 1
+			},
+			"Juan Cayasso": {
+				"1990": 1
+			},
+			"Óscar Duarte": {
+				"2014": 1
+			},
+			"Róger Flores": {
+				"1990": 1
+			},
+			"Rónald González": {
+				"1990": 1
+			},
+			"Hernán Medford": {
+				"1990": 1
+			},
+			"Winston Parks": {
+				"2002": 1
+			},
+			"Marco Ureña": {
+				"2014": 1
+			},
+			"Kendall Waston": {
+				"2018": 1
+			},
+			"Mauricio Wright": {
+				"2002": 1
+			},
+			"Own goals": {
+				"2018": 1
+			},
+			"_total": {
+				"1990": 4,
+				"2002": 5,
+				"2006": 3,
+				"2014": 5,
+				"2018": 2
+			}
+		},
+		"Croatia": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/23px-Flag_of_Croatia.svg.png",
+			"Davor Šuker": {
+				"1998": 6
+			},
+			"Mario Mandžukić": {
+				"2014": 2,
+				"2018": 3
+			},
+			"Ivan Perišić": {
+				"2014": 2,
+				"2018": 3
+			},
+			"Luka Modrić": {
+				"2018": 2
+			},
+			"Ivica Olić": {
+				"2002": 1,
+				"2014": 1
+			},
+			"Robert Prosinečki": {
+				"1998": 2
+			},
+			"Milan Badelj": {
+				"2018": 1
+			},
+			"Robert Jarni": {
+				"1998": 1
+			},
+			"Niko Kovač": {
+				"2006": 1
+			},
+			"Andrej Kramarić": {
+				"2018": 1
+			},
+			"Ivan Rakitić": {
+				"2018": 1
+			},
+			"Milan Rapaić": {
+				"2002": 1
+			},
+			"Ante Rebić": {
+				"2018": 1
+			},
+			"Darijo Srna": {
+				"2006": 1
+			},
+			"Mario Stanić": {
+				"1998": 1
+			},
+			"Domagoj Vida": {
+				"2018": 1
+			},
+			"Goran Vlaović": {
+				"1998": 1
+			},
+			"Own goals": {
+				"2014": 1,
+				"2018": 1
+			},
+			"_total": {
+				"1998": 11,
+				"2002": 2,
+				"2006": 2,
+				"2014": 6,
+				"2018": 14
+			}
+		},
+		"Cuba": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Cuba.svg/23px-Flag_of_Cuba.svg.png",
+			"Héctor Socorro": {
+				"1938": 3
+			},
+			"Tomás Fernández": {
+				"1938": 1
+			},
+			"José Magriñá": {
+				"1938": 1
+			},
+			"_total": {
+				"1938": 5
+			}
+		},
+		"Czech Republic": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/23px-Flag_of_the_Czech_Republic.svg.png",
+			"Tomáš Rosický": {
+				"2006": 2
+			},
+			"Jan Koller": {
+				"2006": 1
+			},
+			"_total": {
+				"2006": 3
+			}
+		},
+		"Czechoslovakia": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/23px-Flag_of_the_Czech_Republic.svg.png",
+			"Oldřich Nejedlý": {
+				"1934": 5,
+				"1938": 2
+			},
+			"Tomáš Skuhravý": {
+				"1990": 5
+			},
+			"Zdeněk Zikán": {
+				"1958": 4
+			},
+			"Adolf Scherer": {
+				"1962": 3
+			},
+			"Michal Bílek": {
+				"1990": 2
+			},
+			"Milan Dvořák": {
+				"1958": 2
+			},
+			"Václav Hovorka": {
+				"1958": 2
+			},
+			"Ladislav Petráš": {
+				"1970": 2
+			},
+			"Antonín Panenka": {
+				"1982": 2
+			},
+			"Antonín Puč": {
+				"1934": 2
+			},
+			"Jiří Feureisl": {
+				"1958": 1
+			},
+			"Ivan Hašek": {
+				"1990": 1
+			},
+			"Josef Kadraba": {
+				"1962": 1
+			},
+			"Vlastimil Kopecký": {
+				"1938": 1
+			},
+			"Josef Košťálek": {
+				"1938": 1
+			},
+			"Luboš Kubík": {
+				"1990": 1
+			},
+			"Milan Luhový": {
+				"1990": 1
+			},
+			"Václav Mašek": {
+				"1962": 1
+			},
+			"Josef Masopust": {
+				"1962": 1
+			},
+			"Jiří Sobotka": {
+				"1934": 1
+			},
+			"Jozef Štibrányi": {
+				"1962": 1
+			},
+			"František Svoboda": {
+				"1934": 1
+			},
+			"Josef Zeman": {
+				"1938": 1
+			},
+			"_total": {
+				"1934": 9,
+				"1938": 5,
+				"1954": 0,
+				"1958": 9,
+				"1962": 7,
+				"1970": 2,
+				"1982": 2,
+				"1990": 10
+			}
+		},
+		"DR Congo": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/20px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png",
+			"_total": {
+				"1974": 0
+			}
+		},
+		"Denmark": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/20px-Flag_of_Denmark.svg.png",
+			"Jon Dahl Tomasson": {
+				"2002": 4,
+				"2010": 1
+			},
+			"Preben Elkjær Larsen": {
+				"1986": 4
+			},
+			"Jesper Olsen": {
+				"1986": 3
+			},
+			"Brian Laudrup": {
+				"1998": 2
+			},
+			"Michael Laudrup": {
+				"1986": 1,
+				"1998": 1
+			},
+			"Dennis Rommedahl": {
+				"2002": 1,
+				"2010": 1
+			},
+			"Nicklas Bendtner": {
+				"2010": 1
+			},
+			"Christian Eriksen": {
+				"2018": 1
+			},
+			"John Eriksen": {
+				"1986": 1
+			},
+			"Thomas Helveg": {
+				"1998": 1
+			},
+			"Martin Jørgensen": {
+				"1998": 1
+			},
+			"Mathias Jørgensen": {
+				"2018": 1
+			},
+			"Søren Lerby": {
+				"1986": 1
+			},
+			"Peter Møller": {
+				"1998": 1
+			},
+			"Allan Nielsen": {
+				"1998": 1
+			},
+			"Yussuf Poulsen": {
+				"2018": 1
+			},
+			"Marc Rieper": {
+				"1998": 1
+			},
+			"Ebbe Sand": {
+				"1998": 1
+			},
+			"_total": {
+				"1986": 10,
+				"1998": 9,
+				"2002": 5,
+				"2010": 3,
+				"2018": 3
+			}
+		},
+		"East Germany": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Flag_of_East_Germany.svg/23px-Flag_of_East_Germany.svg.png",
+			"Joachim Streich": {
+				"1974": 2
+			},
+			"Martin Hoffmann": {
+				"1974": 1
+			},
+			"Jürgen Sparwasser": {
+				"1974": 1
+			},
+			"Own goals": {
+				"1974": 1
+			},
+			"_total": {
+				"1974": 5
+			}
+		},
+		"Ecuador": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/23px-Flag_of_Ecuador.svg.png",
+			"Agustín Delgado": {
+				"2002": 1,
+				"2006": 2
+			},
+			"Enner Valencia": {
+				"2014": 3
+			},
+			"Carlos Tenorio": {
+				"2006": 2
+			},
+			"Iván Kaviedes": {
+				"2006": 1
+			},
+			"Edison Méndez": {
+				"2002": 1
+			},
+			"_total": {
+				"2002": 2,
+				"2006": 5,
+				"2014": 3
+			}
+		},
+		"Egypt": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/23px-Flag_of_Egypt.svg.png",
+			"Abdulrahman Fawzi": {
+				"1934": 2
+			},
+			"Mohamed Salah": {
+				"2018": 2
+			},
+			"Magdi Abdelghani": {
+				"1990": 1
+			},
+			"_total": {
+				"1934": 2,
+				"1990": 1,
+				"2018": 2
+			}
+		},
+		"El Salvador": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/23px-Flag_of_El_Salvador.svg.png",
+			"Luis Ramírez": {
+				"1982": 1
+			},
+			"_total": {
+				"1970": 0,
+				"1982": 1
+			}
+		},
+		"England": {
+			"_img": "//upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/23px-Flag_of_England.svg.png",
+			"Gary Lineker": {
+				"1986": 6,
+				"1990": 4
+			},
+			"Harry Kane": {
+				"2018": 6
+			},
+			"Geoff Hurst": {
+				"1966": 4,
+				"1970": 1
+			},
+			"Bobby Charlton": {
+				"1962": 1,
+				"1966": 3
+			},
+			"Michael Owen": {
+				"1998": 2,
+				"2002": 2
+			},
+			"David Beckham": {
+				"1998": 1,
+				"2002": 1,
+				"2006": 1
+			},
+			"Steven Gerrard": {
+				"2006": 2,
+				"2010": 1
+			},
+			"Roger Hunt": {
+				"1966": 3
+			},
+			"Nat Lofthouse": {
+				"1954": 3
+			},
+			"David Platt": {
+				"1990": 3
+			},
+			"Ivor Broadis": {
+				"1954": 2
+			},
+			"Tom Finney": {
+				"1954": 1,
+				"1958": 1
+			},
+			"Ron Flowers": {
+				"1962": 2
+			},
+			"Trevor Francis": {
+				"1982": 2
+			},
+			"Derek Kevan": {
+				"1958": 2
+			},
+			"Martin Peters": {
+				"1966": 1,
+				"1970": 1
+			},
+			"Bryan Robson": {
+				"1982": 2
+			},
+			"Alan Shearer": {
+				"1998": 2
+			},
+			"John Stones": {
+				"2018": 2
+			},
+			"Dele Alli": {
+				"2018": 1
+			},
+			"Darren Anderton": {
+				"1998": 1
+			},
+			"Peter Beardsley": {
+				"1986": 1
+			},
+			"Sol Campbell": {
+				"2002": 1
+			},
+			"Allan Clarke": {
+				"1970": 1
+			},
+			"Joe Cole": {
+				"2006": 1
+			},
+			"Peter Crouch": {
+				"2006": 1
+			},
+			"Jermain Defoe": {
+				"2010": 1
+			},
+			"Rio Ferdinand": {
+				"2002": 1
+			},
+			"Jimmy Greaves": {
+				"1962": 1
+			},
+			"Johnny Haynes": {
+				"1958": 1
+			},
+			"Emile Heskey": {
+				"2002": 1
+			},
+			"Gerry Hitchens": {
+				"1962": 1
+			},
+			"Jesse Lingard": {
+				"2018": 1
+			},
+			"Harry Maguire": {
+				"2018": 1
+			},
+			"Wilf Mannion": {
+				"1950": 1
+			},
+			"Paul Mariner": {
+				"1982": 1
+			},
+			"Stan Mortensen": {
+				"1950": 1
+			},
+			"Jimmy Mullen": {
+				"1954": 1
+			},
+			"Alan Mullery": {
+				"1970": 1
+			},
+			"Wayne Rooney": {
+				"2014": 1
+			},
+			"Paul Scholes": {
+				"1998": 1
+			},
+			"Daniel Sturridge": {
+				"2014": 1
+			},
+			"Kieran Trippier": {
+				"2018": 1
+			},
+			"Matthew Upson": {
+				"2010": 1
+			},
+			"Dennis Wilshaw": {
+				"1954": 1
+			},
+			"Mark Wright": {
+				"1990": 1
+			},
+			"Own goals": {
+				"1982": 1,
+				"2006": 1
+			},
+			"_total": {
+				"1950": 2,
+				"1954": 8,
+				"1958": 4,
+				"1962": 5,
+				"1966": 11,
+				"1970": 4,
+				"1982": 6,
+				"1986": 7,
+				"1990": 8,
+				"1998": 7,
+				"2002": 6,
+				"2006": 6,
+				"2010": 3,
+				"2014": 2,
+				"2018": 12
+			}
+		},
+		"France": {
+			"_img": "//upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/23px-Flag_of_France.svg.png",
+			"Just Fontaine": {
+				"1958": 13
+			},
+			"Thierry Henry": {
+				"1998": 3,
+				"2006": 3
+			},
+			"Michel Platini": {
+				"1978": 1,
+				"1982": 2,
+				"1986": 2
+			},
+			"Zinedine Zidane": {
+				"1998": 2,
+				"2006": 3
+			},
+			"Antoine Griezmann": {
+				"2018": 4
+			},
+			"Raymond Kopa": {
+				"1954": 1,
+				"1958": 3
+			},
+			"Kylian Mbappé": {
+				"2018": 4
+			},
+			"Dominique Rocheteau": {
+				"1978": 1,
+				"1982": 2,
+				"1986": 1
+			},
+			"Karim Benzema": {
+				"2014": 3
+			},
+			"Bernard Genghini": {
+				"1982": 2,
+				"1986": 1
+			},
+			"Alain Giresse": {
+				"1982": 3
+			},
+			"Jean Nicolas": {
+				"1934": 1,
+				"1938": 2
+			},
+			"Roger Piantoni": {
+				"1958": 3
+			},
+			"André Maschinot": {
+				"1930": 2
+			},
+			"Jean-Pierre Papin": {
+				"1986": 2
+			},
+			"Emmanuel Petit": {
+				"1998": 2
+			},
+			"Paul Pogba": {
+				"2014": 1,
+				"2018": 1
+			},
+			"Didier Six": {
+				"1982": 2
+			},
+			"Yannick Stopyra": {
+				"1986": 2
+			},
+			"Lilian Thuram": {
+				"1998": 2
+			},
+			"Patrick Vieira": {
+				"2006": 2
+			},
+			"Jean Vincent": {
+				"1954": 1,
+				"1958": 1
+			},
+			"Maryan Wisnieski": {
+				"1958": 2
+			},
+			"Manuel Amoros": {
+				"1986": 1
+			},
+			"Marc Berdoll": {
+				"1978": 1
+			},
+			"Laurent Blanc": {
+				"1998": 1
+			},
+			"Maxime Bossis": {
+				"1982": 1
+			},
+			"Alain Couriol": {
+				"1982": 1
+			},
+			"Héctor De Bourgoing": {
+				"1966": 1
+			},
+			"Youri Djorkaeff": {
+				"1998": 1
+			},
+			"Yvon Douis": {
+				"1958": 1
+			},
+			"Christophe Dugarry": {
+				"1998": 1
+			},
+			"Luis Fernández": {
+				"1986": 1
+			},
+			"Jean-Marc Ferreri": {
+				"1986": 1
+			},
+			"René Girard": {
+				"1982": 1
+			},
+			"Olivier Giroud": {
+				"2014": 1
+			},
+			"Gérard Hausser": {
+				"1966": 1
+			},
+			"Oscar Heisserer": {
+				"1938": 1
+			},
+			"Bernard Lacombe": {
+				"1978": 1
+			},
+			"Marcel Langiller": {
+				"1930": 1
+			},
+			"Lucien Laurent": {
+				"1930": 1
+			},
+			"Bixente Lizarazu": {
+				"1998": 1
+			},
+			"Christian Lopez": {
+				"1978": 1
+			},
+			"Florent Malouda": {
+				"2010": 1
+			},
+			"Blaise Matuidi": {
+				"2014": 1
+			},
+			"Benjamin Pavard": {
+				"2018": 1
+			},
+			"Franck Ribéry": {
+				"2006": 1
+			},
+			"Moussa Sissoko": {
+				"2014": 1
+			},
+			"Gérard Soler": {
+				"1982": 1
+			},
+			"Jean Tigana": {
+				"1986": 1
+			},
+			"Marius Trésor": {
+				"1982": 1
+			},
+			"David Trezeguet": {
+				"1998": 1
+			},
+			"Samuel Umtiti": {
+				"2018": 1
+			},
+			"Mathieu Valbuena": {
+				"2014": 1
+			},
+			"Raphaël Varane": {
+				"2018": 1
+			},
+			"Émile Veinante": {
+				"1938": 1
+			},
+			"Georges Verriest": {
+				"1934": 1
+			},
+			"Own goals": {
+				"1954": 1,
+				"1998": 1,
+				"2014": 2,
+				"2018": 2
+			},
+			"_total": {
+				"1930": 4,
+				"1934": 2,
+				"1938": 4,
+				"1954": 3,
+				"1958": 23,
+				"1966": 2,
+				"1978": 5,
+				"1982": 16,
+				"1986": 12,
+				"1998": 15,
+				"2002": 0,
+				"2006": 9,
+				"2010": 1,
+				"2014": 10,
+				"2018": 14
+			}
+		},
+		"Germany": {
+			"_img": "//upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/23px-Flag_of_Germany.svg.png",
+			"Miroslav Klose": {
+				"2002": 5,
+				"2006": 5,
+				"2010": 4,
+				"2014": 2
+			},
+			"Gerd Müller": {
+				"1970": 10,
+				"1974": 4
+			},
+			"Jürgen Klinsmann": {
+				"1990": 3,
+				"1994": 5,
+				"1998": 3
+			},
+			"Thomas Müller": {
+				"2010": 5,
+				"2014": 5
+			},
+			"Helmut Rahn": {
+				"1954": 4,
+				"1958": 6
+			},
+			"Karl-Heinz Rummenigge": {
+				"1978": 3,
+				"1982": 5,
+				"1986": 1
+			},
+			"Uwe Seeler": {
+				"1958": 2,
+				"1962": 2,
+				"1966": 2,
+				"1970": 3
+			},
+			"Rudi Völler": {
+				"1986": 3,
+				"1990": 3,
+				"1994": 2
+			},
+			"Hans Schäfer": {
+				"1954": 4,
+				"1958": 3
+			},
+			"Helmut Haller": {
+				"1966": 6
+			},
+			"Lothar Matthäus": {
+				"1986": 1,
+				"1990": 4,
+				"1994": 1
+			},
+			"Max Morlock": {
+				"1954": 6
+			},
+			"Franz Beckenbauer": {
+				"1966": 4,
+				"1970": 1
+			},
+			"Lukas Podolski": {
+				"2006": 3,
+				"2010": 2
+			},
+			"Oliver Bierhoff": {
+				"1998": 3,
+				"2002": 1
+			},
+			"Andreas Brehme": {
+				"1986": 1,
+				"1990": 3
+			},
+			"Paul Breitner": {
+				"1974": 3,
+				"1982": 1
+			},
+			"Edmund Conen": {
+				"1934": 4
+			},
+			"Ottmar Walter": {
+				"1954": 4
+			},
+			"Michael Ballack": {
+				"2002": 3
+			},
+			"Toni Kroos": {
+				"2014": 2,
+				"2018": 1
+			},
+			"Pierre Littbarski": {
+				"1982": 2,
+				"1990": 1
+			},
+			"Wolfgang Overath": {
+				"1970": 1,
+				"1974": 2
+			},
+			"André Schürrle": {
+				"2014": 3
+			},
+			"Fritz Walter": {
+				"1954": 3
+			},
+			"Klaus Allofs": {
+				"1986": 2
+			},
+			"Klaus Fischer": {
+				"1982": 2
+			},
+			"Heinz Flohe": {
+				"1978": 2
+			},
+			"Mario Götze": {
+				"2014": 2
+			},
+			"Karl Hohmann": {
+				"1934": 2
+			},
+			"Mats Hummels": {
+				"2014": 2
+			},
+			"Sami Khedira": {
+				"2010": 1,
+				"2014": 1
+			},
+			"Ernst Lehner": {
+				"1934": 2
+			},
+			"Dieter Müller": {
+				"1978": 2
+			},
+			"Oliver Neuville": {
+				"2002": 1,
+				"2006": 1
+			},
+			"Mesut Özil": {
+				"2010": 1,
+				"2014": 1
+			},
+			"Bastian Schweinsteiger": {
+				"2006": 2
+			},
+			"Rüdiger Abramczik": {
+				"1978": 1
+			},
+			"Uwe Bein": {
+				"1990": 1
+			},
+			"Marco Bode": {
+				"2002": 1
+			},
+			"Rainer Bonhof": {
+				"1974": 1
+			},
+			"Albert Brülls": {
+				"1962": 1
+			},
+			"Cacau": {
+				"2010": 1
+			},
+			"Hans Cieslarczyk": {
+				"1958": 1
+			},
+			"Bernhard Cullmann": {
+				"1974": 1
+			},
+			"Lothar Emmerich": {
+				"1966": 1
+			},
+			"Arne Friedrich": {
+				"2010": 1
+			},
+			"Torsten Frings": {
+				"2006": 1
+			},
+			"Josef Gauchel": {
+				"1938": 1
+			},
+			"Jürgen Grabowski": {
+				"1974": 1
+			},
+			"Wilhelm Hahnemann": {
+				"1938": 1
+			},
+			"Sigfried Held": {
+				"1966": 1
+			},
+			"Richard Herrmann": {
+				"1954": 1
+			},
+			"Uli Hoeneß": {
+				"1974": 1
+			},
+			"Bernd Hölzenbein": {
+				"1978": 1
+			},
+			"Horst Hrubesch": {
+				"1982": 1
+			},
+			"Carsten Jancker": {
+				"2002": 1
+			},
+			"Marcell Jansen": {
+				"2010": 1
+			},
+			"Bernhard Klodt": {
+				"1954": 1
+			},
+			"Stanislaus Kobierski": {
+				"1934": 1
+			},
+			"Philipp Lahm": {
+				"2006": 1
+			},
+			"Reinhard Libuda": {
+				"1970": 1
+			},
+			"Thomas Linke": {
+				"2002": 1
+			},
+			"Andreas Möller": {
+				"1998": 1
+			},
+			"Hansi Müller": {
+				"1978": 1
+			},
+			"Rudolf Noack": {
+				"1934": 1
+			},
+			"Alfred Pfaff": {
+				"1954": 1
+			},
+			"Uwe Reinders": {
+				"1982": 1
+			},
+			"Marco Reus": {
+				"2018": 1
+			},
+			"Karl-Heinz Riedle": {
+				"1994": 1
+			},
+			"Bernd Schneider": {
+				"2002": 1
+			},
+			"Karl-Heinz Schnellinger": {
+				"1970": 1
+			},
+			"Otto Siffling": {
+				"1934": 1
+			},
+			"Horst Szymaniak": {
+				"1962": 1
+			},
+			"Wolfgang Weber": {
+				"1966": 1
+			},
+			"Own goals": {
+				"1938": 1,
+				"1954": 1,
+				"1998": 1,
+				"2006": 1
+			},
+			"_total": {
+				"1934": 11,
+				"1938": 3,
+				"1954": 25,
+				"1958": 12,
+				"1962": 4,
+				"1966": 15,
+				"1970": 17,
+				"1974": 13,
+				"1978": 10,
+				"1982": 12,
+				"1986": 8,
+				"1990": 15,
+				"1994": 9,
+				"1998": 8,
+				"2002": 14,
+				"2006": 14,
+				"2010": 16,
+				"2014": 18,
+				"2018": 2
+			}
+		},
+		"Ghana": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/23px-Flag_of_Ghana.svg.png",
+			"Asamoah Gyan": {
+				"2006": 1,
+				"2010": 3,
+				"2014": 2
+			},
+			"André Ayew": {
+				"2014": 2
+			},
+			"Sulley Muntari": {
+				"2006": 1,
+				"2010": 1
+			},
+			"Stephen Appiah": {
+				"2006": 1
+			},
+			"Kevin-Prince Boateng": {
+				"2010": 1
+			},
+			"Haminu Draman": {
+				"2006": 1
+			},
+			"_total": {
+				"2006": 4,
+				"2010": 5,
+				"2014": 4
+			}
+		},
+		"Greece": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/23px-Flag_of_Greece.svg.png",
+			"Sokratis Papastathopoulos": {
+				"2014": 1
+			},
+			"Dimitris Salpingidis": {
+				"2010": 1
+			},
+			"Georgios Samaras": {
+				"2014": 1
+			},
+			"Andreas Samaris": {
+				"2014": 1
+			},
+			"Vasilis Torosidis": {
+				"2010": 1
+			},
+			"_total": {
+				"1994": 0,
+				"2010": 2,
+				"2014": 3
+			}
+		},
+		"Haiti": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/23px-Flag_of_Haiti.svg.png",
+			"Emmanuel Sanon": {
+				"1974": 2
+			},
+			"_total": {
+				"1974": 2
+			}
+		},
+		"Honduras": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/8/82/Flag_of_Honduras.svg/23px-Flag_of_Honduras.svg.png",
+			"Carlo Costly": {
+				"2014": 1
+			},
+			"Antonio Laing": {
+				"1982": 1
+			},
+			"Héctor Zelaya": {
+				"1982": 1
+			},
+			"_total": {
+				"1982": 2,
+				"2010": 0,
+				"2014": 1
+			}
+		},
+		"Hungary": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/23px-Flag_of_Hungary.svg.png",
+			"Sándor Kocsis": {
+				"1954": 11
+			},
+			"Lajos Tichy": {
+				"1958": 4,
+				"1962": 3
+			},
+			"György Sárosi": {
+				"1934": 1,
+				"1938": 5
+			},
+			"Gyula Zsengellér": {
+				"1938": 5
+			},
+			"Flórián Albert": {
+				"1962": 4
+			},
+			"Ferenc Bene": {
+				"1966": 4
+			},
+			"Nándor Hidegkuti": {
+				"1954": 4
+			},
+			"Ferenc Puskás": {
+				"1954": 4
+			},
+			"Zoltán Czibor": {
+				"1954": 3
+			},
+			"László Kiss": {
+				"1982": 3
+			},
+			"Géza Toldi": {
+				"1934": 2,
+				"1938": 1
+			},
+			"László Fazekas": {
+				"1982": 2
+			},
+			"Mihály Lantos": {
+				"1954": 2
+			},
+			"Kálmán Mészöly": {
+				"1966": 2
+			},
+			"Tibor Nyilasi": {
+				"1982": 2
+			},
+			"Péter Palotás": {
+				"1954": 2
+			},
+			"Gábor Pölöskei": {
+				"1982": 2
+			},
+			"Pál Titkos": {
+				"1938": 2
+			},
+			"József Bencsics": {
+				"1958": 1
+			},
+			"József Bozsik": {
+				"1958": 1
+			},
+			"Károly Csapó": {
+				"1978": 1
+			},
+			"Lajos Détári": {
+				"1986": 1
+			},
+			"Márton Esterházy": {
+				"1986": 1
+			},
+			"János Farkas": {
+				"1966": 1
+			},
+			"Vilmos Kohut": {
+				"1938": 1
+			},
+			"Károly Sándor": {
+				"1958": 1
+			},
+			"Ernő Solymosi": {
+				"1962": 1
+			},
+			"Lázár Szentes": {
+				"1982": 1
+			},
+			"Pál Teleki": {
+				"1934": 1
+			},
+			"András Tóth": {
+				"1978": 1
+			},
+			"József Tóth (1929)": {
+				"1954": 1
+			},
+			"József Tóth (1951)": {
+				"1982": 1
+			},
+			"József Varga": {
+				"1982": 1
+			},
+			"Jenő Vincze": {
+				"1934": 1
+			},
+			"Sándor Zombori": {
+				"1978": 1
+			},
+			"Own goals": {
+				"1938": 1,
+				"1966": 1
+			},
+			"_total": {
+				"1934": 5,
+				"1938": 15,
+				"1954": 27,
+				"1958": 7,
+				"1962": 8,
+				"1966": 8,
+				"1978": 3,
+				"1982": 12,
+				"1986": 2
+			}
+		},
+		"Iceland": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/21px-Flag_of_Iceland.svg.png",
+			"Alfreð Finnbogason": {
+				"2018": 1
+			},
+			"Gylfi Sigurðsson": {
+				"2018": 1
+			},
+			"_total": {
+				"2018": 2
+			}
+		},
+		"Indonesia": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/23px-Flag_of_Indonesia.svg.png",
+			"_total": {
+				"1938": 0
+			}
+		},
+		"Iran": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/23px-Flag_of_Iran.svg.png",
+			"Karim Ansarifard": {
+				"2018": 1
+			},
+			"Sohrab Bakhtiarizadeh": {
+				"2006": 1
+			},
+			"Iraj Danaeifard": {
+				"1978": 1
+			},
+			"Hamid Estili": {
+				"1998": 1
+			},
+			"Reza Ghoochannejhad": {
+				"2014": 1
+			},
+			"Yahya Golmohammadi": {
+				"2006": 1
+			},
+			"Mehdi Mahdavikia": {
+				"1998": 1
+			},
+			"Hassan Rowshan": {
+				"1978": 1
+			},
+			"Own goals": {
+				"2018": 1
+			},
+			"_total": {
+				"1978": 2,
+				"1998": 2,
+				"2006": 2,
+				"2014": 1,
+				"2018": 2
+			}
+		},
+		"Iraq": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Iraq.svg/23px-Flag_of_Iraq.svg.png",
+			"Ahmed Radhi": {
+				"1986": 1
+			},
+			"_total": {
+				"1986": 1
+			}
+		},
+		"Israel": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/21px-Flag_of_Israel.svg.png",
+			"Mordechai Spiegler": {
+				"1970": 1
+			},
+			"_total": {
+				"1970": 1
+			}
+		},
+		"Italy": {
+			"_img": "//upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/23px-Flag_of_Italy.svg.png",
+			"Roberto Baggio": {
+				"1990": 2,
+				"1994": 5,
+				"1998": 2
+			},
+			"Paolo Rossi": {
+				"1978": 3,
+				"1982": 6
+			},
+			"Christian Vieri": {
+				"1998": 5,
+				"2002": 4
+			},
+			"Salvatore Schillaci": {
+				"1990": 6
+			},
+			"Alessandro Altobelli": {
+				"1982": 1,
+				"1986": 4
+			},
+			"Silvio Piola": {
+				"1938": 5
+			},
+			"Gino Colaussi": {
+				"1938": 4
+			},
+			"Angelo Schiavio": {
+				"1934": 4
+			},
+			"Giuseppe Meazza": {
+				"1934": 2,
+				"1938": 1
+			},
+			"Raimundo Orsi": {
+				"1934": 3
+			},
+			"Luigi Riva": {
+				"1970": 3
+			},
+			"Gianni Rivera": {
+				"1970": 2,
+				"1974": 1
+			},
+			"Dino Baggio": {
+				"1994": 2
+			},
+			"Romeo Benetti": {
+				"1974": 1,
+				"1978": 1
+			},
+			"Roberto Bettega": {
+				"1978": 2
+			},
+			"Roberto Boninsegna": {
+				"1970": 2
+			},
+			"Giacomo Bulgarelli": {
+				"1962": 2
+			},
+			"Riccardo Carapellese": {
+				"1950": 2
+			},
+			"Alessandro Del Piero": {
+				"2002": 1,
+				"2006": 1
+			},
+			"Giovanni Ferrari": {
+				"1934": 2
+			},
+			"Vincenzo Iaquinta": {
+				"2006": 1,
+				"2010": 1
+			},
+			"Marco Materazzi": {
+				"2006": 2
+			},
+			"Egisto Pandolfini": {
+				"1950": 1,
+				"1954": 1
+			},
+			"Marco Tardelli": {
+				"1982": 2
+			},
+			"Luca Toni": {
+				"2006": 2
+			},
+			"Pietro Anastasi": {
+				"1974": 1
+			},
+			"Mario Balotelli": {
+				"2014": 1
+			},
+			"Paolo Barison": {
+				"1966": 1
+			},
+			"Giampiero Boniperti": {
+				"1954": 1
+			},
+			"Tarcisio Burgnich": {
+				"1970": 1
+			},
+			"Antonio Cabrini": {
+				"1982": 1
+			},
+			"Fabio Capello": {
+				"1974": 1
+			},
+			"Franco Causio": {
+				"1978": 1
+			},
+			"Bruno Conti": {
+				"1982": 1
+			},
+			"Daniele De Rossi": {
+				"2010": 1
+			},
+			"Luigi Di Biagio": {
+				"1998": 1
+			},
+			"Antonio Di Natale": {
+				"2010": 1
+			},
+			"Angelo Domenghini": {
+				"1970": 1
+			},
+			"Pietro Ferraris": {
+				"1938": 1
+			},
+			"Amleto Frignani": {
+				"1954": 1
+			},
+			"Carlo Galli": {
+				"1954": 1
+			},
+			"Giuseppe Giannini": {
+				"1990": 1
+			},
+			"Alberto Gilardino": {
+				"2006": 1
+			},
+			"Francesco Graziani": {
+				"1982": 1
+			},
+			"Fabio Grosso": {
+				"2006": 1
+			},
+			"Enrique Guaita": {
+				"1934": 1
+			},
+			"Filippo Inzaghi": {
+				"2006": 1
+			},
+			"Benito Lorenzi": {
+				"1954": 1
+			},
+			"Claudio Marchisio": {
+				"2014": 1
+			},
+			"Daniele Massaro": {
+				"1994": 1
+			},
+			"Sandro Mazzola": {
+				"1966": 1
+			},
+			"Bruno Mora": {
+				"1962": 1
+			},
+			"Ermes Muccinelli": {
+				"1950": 1
+			},
+			"Fulvio Nesti": {
+				"1954": 1
+			},
+			"Andrea Pirlo": {
+				"2006": 1
+			},
+			"Fabio Quagliarella": {
+				"2010": 1
+			},
+			"Aldo Serena": {
+				"1990": 1
+			},
+			"Francesco Totti": {
+				"2006": 1
+			},
+			"Renato Zaccarelli": {
+				"1978": 1
+			},
+			"Gianluca Zambrotta": {
+				"2006": 1
+			},
+			"Own goals": {
+				"1970": 1,
+				"1974": 1,
+				"1978": 1,
+				"1986": 1
+			},
+			"_total": {
+				"1934": 12,
+				"1938": 11,
+				"1950": 4,
+				"1954": 6,
+				"1962": 3,
+				"1966": 2,
+				"1970": 10,
+				"1974": 5,
+				"1978": 9,
+				"1982": 12,
+				"1986": 5,
+				"1990": 10,
+				"1994": 8,
+				"1998": 8,
+				"2002": 5,
+				"2006": 12,
+				"2010": 4,
+				"2014": 2
+			}
+		},
+		"Ivory Coast": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/23px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png",
+			"Wilfried Bony": {
+				"2014": 2
+			},
+			"Aruna Dindane": {
+				"2006": 2
+			},
+			"Didier Drogba": {
+				"2006": 1,
+				"2010": 1
+			},
+			"Gervinho": {
+				"2014": 2
+			},
+			"Bonaventure Kalou": {
+				"2006": 1
+			},
+			"Salomon Kalou": {
+				"2010": 1
+			},
+			"Bakari Koné": {
+				"2006": 1
+			},
+			"Romaric": {
+				"2010": 1
+			},
+			"Yaya Touré": {
+				"2010": 1
+			},
+			"_total": {
+				"2006": 5,
+				"2010": 4,
+				"2014": 4
+			}
+		},
+		"Jamaica": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Jamaica.svg/23px-Flag_of_Jamaica.svg.png",
+			"Theodore Whitmore": {
+				"1998": 2
+			},
+			"Robbie Earle": {
+				"1998": 1
+			},
+			"_total": {
+				"1998": 3
+			}
+		},
+		"Japan": {
+			"_img": "//upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/23px-Flag_of_Japan.svg.png",
+			"Keisuke Honda": {
+				"2010": 2,
+				"2014": 1,
+				"2018": 1
+			},
+			"Junichi Inamoto": {
+				"2002": 2
+			},
+			"Takashi Inui": {
+				"2018": 2
+			},
+			"Shinji Okazaki": {
+				"2010": 1,
+				"2014": 1
+			},
+			"Yasuhito Endō": {
+				"2010": 1
+			},
+			"Genki Haraguchi": {
+				"2018": 1
+			},
+			"Shinji Kagawa": {
+				"2018": 1
+			},
+			"Hiroaki Morishima": {
+				"2002": 1
+			},
+			"Shunsuke Nakamura": {
+				"2006": 1
+			},
+			"Hidetoshi Nakata": {
+				"2002": 1
+			},
+			"Masashi Nakayama": {
+				"1998": 1
+			},
+			"Yuya Osako": {
+				"2018": 1
+			},
+			"Takayuki Suzuki": {
+				"2002": 1
+			},
+			"Keiji Tamada": {
+				"2006": 1
+			},
+			"_total": {
+				"1998": 1,
+				"2002": 5,
+				"2006": 2,
+				"2010": 4,
+				"2014": 2,
+				"2018": 6
+			}
+		},
+		"Kuwait": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Kuwait.svg/23px-Flag_of_Kuwait.svg.png",
+			"Abdullah Al-Buloushi": {
+				"1982": 1
+			},
+			"Faisal Al-Dakhil": {
+				"1982": 1
+			},
+			"_total": {
+				"1982": 2
+			}
+		},
+		"Mexico": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/23px-Flag_of_Mexico.svg.png",
+			"Javier Hernández": {
+				"2010": 2,
+				"2014": 1,
+				"2018": 1
+			},
+			"Luis Hernández": {
+				"1998": 4
+			},
+			"Cuauhtémoc Blanco": {
+				"1998": 1,
+				"2002": 1,
+				"2010": 1
+			},
+			"Rafael Márquez": {
+				"2006": 1,
+				"2010": 1,
+				"2014": 1
+			},
+			"Jared Borgetti": {
+				"2002": 2
+			},
+			"Omar Bravo": {
+				"2006": 2
+			},
+			"Luis García": {
+				"1994": 2
+			},
+			"Alberto García Aspe": {
+				"1994": 1,
+				"1998": 1
+			},
+			"Ricardo Peláez": {
+				"1998": 2
+			},
+			"Fernando Quirarte": {
+				"1986": 2
+			},
+			"Manuel Rosas": {
+				"1930": 2
+			},
+			"Javier Valdivia": {
+				"1970": 2
+			},
+			"Tomás Balcázar": {
+				"1954": 1
+			},
+			"Juan Ignacio Basaguren": {
+				"1970": 1
+			},
+			"Jaime Belmonte": {
+				"1958": 1
+			},
+			"Marcelino Bernal": {
+				"1994": 1
+			},
+			"Enrique Borja": {
+				"1966": 1
+			},
+			"Juan Carreño": {
+				"1930": 1
+			},
+			"Horacio Casarín": {
+				"1950": 1
+			},
+			"Alfredo del Águila": {
+				"1962": 1
+			},
+			"Isidoro Díaz": {
+				"1962": 1
+			},
+			"Giovani dos Santos": {
+				"2014": 1
+			},
+			"Luis Flores": {
+				"1986": 1
+			},
+			"Francisco Fonseca": {
+				"2006": 1
+			},
+			"Javier Fragoso": {
+				"1970": 1
+			},
+			"Roberto Gayón": {
+				"1930": 1
+			},
+			"José Luis González": {
+				"1970": 1
+			},
+			"Andrés Guardado": {
+				"2014": 1
+			},
+			"Héctor Hernández": {
+				"1962": 1
+			},
+			"José Luis Lamadrid": {
+				"1954": 1
+			},
+			"Hirving Lozano": {
+				"2018": 1
+			},
+			"Manuel Negrete": {
+				"1986": 1
+			},
+			"Héctor Ortiz": {
+				"1950": 1
+			},
+			"Gustavo Peña": {
+				"1970": 1
+			},
+			"Oribe Peralta": {
+				"2014": 1
+			},
+			"Víctor Rangel": {
+				"1978": 1
+			},
+			"Hugo Sánchez": {
+				"1986": 1
+			},
+			"Raúl Servín": {
+				"1986": 1
+			},
+			"Sinha": {
+				"2006": 1
+			},
+			"Gerardo Torrado": {
+				"2002": 1
+			},
+			"Arturo Vázquez Ayala": {
+				"1978": 1
+			},
+			"Carlos Vela": {
+				"2018": 1
+			},
+			"_total": {
+				"1930": 4,
+				"1950": 2,
+				"1954": 2,
+				"1958": 1,
+				"1962": 3,
+				"1966": 1,
+				"1970": 6,
+				"1978": 2,
+				"1986": 6,
+				"1994": 4,
+				"1998": 8,
+				"2002": 4,
+				"2006": 5,
+				"2010": 4,
+				"2014": 5,
+				"2018": 3
+			}
+		},
+		"Morocco": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/23px-Flag_of_Morocco.svg.png",
+			"Salaheddine Bassir": {
+				"1998": 2
+			},
+			"Abdeljalil Hadda": {
+				"1998": 2
+			},
+			"Abderrazak Khairi": {
+				"1986": 2
+			},
+			"Khalid Boutaïb": {
+				"2018": 1
+			},
+			"Mohammed Chaouch": {
+				"1994": 1
+			},
+			"Youssef En-Nesyri": {
+				"2018": 1
+			},
+			"Maouhoub Ghazouani": {
+				"1970": 1
+			},
+			"Mustapha Hadji": {
+				"1998": 1
+			},
+			"Houmane Jarir": {
+				"1970": 1
+			},
+			"Abdelkrim Merry Krimau": {
+				"1986": 1
+			},
+			"Hassan Nader": {
+				"1994": 1
+			},
+			"_total": {
+				"1970": 2,
+				"1986": 3,
+				"1994": 2,
+				"1998": 5,
+				"2018": 2
+			}
+		},
+		"Netherlands": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/23px-Flag_of_the_Netherlands.svg.png",
+			"Johnny Rep": {
+				"1974": 4,
+				"1978": 3
+			},
+			"Dennis Bergkamp": {
+				"1994": 3,
+				"1998": 3
+			},
+			"Rob Rensenbrink": {
+				"1974": 1,
+				"1978": 5
+			},
+			"Arjen Robben": {
+				"2006": 1,
+				"2010": 2,
+				"2014": 3
+			},
+			"Wesley Sneijder": {
+				"2010": 5,
+				"2014": 1
+			},
+			"Robin van Persie": {
+				"2006": 1,
+				"2010": 1,
+				"2014": 4
+			},
+			"Johan Neeskens": {
+				"1974": 5
+			},
+			"Johan Cruyff": {
+				"1974": 3
+			},
+			"Ernie Brandts": {
+				"1978": 2
+			},
+			"Phillip Cocu": {
+				"1998": 2
+			},
+			"Ronald de Boer": {
+				"1998": 2
+			},
+			"Memphis Depay": {
+				"2014": 2
+			},
+			"Arie Haan": {
+				"1978": 2
+			},
+			"Klaas-Jan Huntelaar": {
+				"2010": 1,
+				"2014": 1
+			},
+			"Wim Jonk": {
+				"1994": 2
+			},
+			"Patrick Kluivert": {
+				"1998": 2
+			},
+			"Daley Blind": {
+				"2014": 1
+			},
+			"Edgar Davids": {
+				"1998": 1
+			},
+			"Theo de Jong": {
+				"1974": 1
+			},
+			"Stefan de Vrij": {
+				"2014": 1
+			},
+			"Leroy Fer": {
+				"2014": 1
+			},
+			"Ruud Gullit": {
+				"1990": 1
+			},
+			"Wim Kieft": {
+				"1990": 1
+			},
+			"Ronald Koeman": {
+				"1990": 1
+			},
+			"Ruud Krol": {
+				"1974": 1
+			},
+			"Dirk Kuyt": {
+				"2010": 1
+			},
+			"Dick Nanninga": {
+				"1978": 1
+			},
+			"Marc Overmars": {
+				"1998": 1
+			},
+			"Bryan Roy": {
+				"1994": 1
+			},
+			"Kick Smit": {
+				"1934": 1
+			},
+			"Gaston Taument": {
+				"1994": 1
+			},
+			"Giovanni van Bronckhorst": {
+				"2010": 1
+			},
+			"René van de Kerkhof": {
+				"1978": 1
+			},
+			"Willy van de Kerkhof": {
+				"1978": 1
+			},
+			"Pierre van Hooijdonk": {
+				"1998": 1
+			},
+			"Ruud van Nistelrooy": {
+				"2006": 1
+			},
+			"Leen Vente": {
+				"1934": 1
+			},
+			"Georginio Wijnaldum": {
+				"2014": 1
+			},
+			"Aron Winter": {
+				"1994": 1
+			},
+			"Boudewijn Zenden": {
+				"1998": 1
+			},
+			"Own goals": {
+				"2010": 1
+			},
+			"_total": {
+				"1934": 2,
+				"1938": 0,
+				"1974": 15,
+				"1978": 15,
+				"1990": 3,
+				"1994": 8,
+				"1998": 13,
+				"2006": 3,
+				"2010": 12,
+				"2014": 15
+			}
+		},
+		"New Zealand": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/23px-Flag_of_New_Zealand.svg.png",
+			"Winston Reid": {
+				"2010": 1
+			},
+			"Shane Smeltz": {
+				"2010": 1
+			},
+			"Steve Sumner": {
+				"1982": 1
+			},
+			"Steve Wooddin": {
+				"1982": 1
+			},
+			"_total": {
+				"1982": 2,
+				"2010": 2
+			}
+		},
+		"Nigeria": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/23px-Flag_of_Nigeria.svg.png",
+			"Ahmed Musa": {
+				"2014": 2,
+				"2018": 2
+			},
+			"Daniel Amokachi": {
+				"1994": 2
+			},
+			"Emmanuel Amuneke": {
+				"1994": 2
+			},
+			"Kalu Uche": {
+				"2010": 2
+			},
+			"Mutiu Adepoju": {
+				"1998": 1
+			},
+			"Julius Aghahowa": {
+				"2002": 1
+			},
+			"Yakubu": {
+				"2010": 1
+			},
+			"Tijani Babangida": {
+				"1998": 1
+			},
+			"Finidi George": {
+				"1994": 1
+			},
+			"Victor Ikpeba": {
+				"1998": 1
+			},
+			"Victor Moses": {
+				"2018": 1
+			},
+			"Peter Odemwingie": {
+				"2014": 1
+			},
+			"Sunday Oliseh": {
+				"1998": 1
+			},
+			"Wilson Oruma": {
+				"1998": 1
+			},
+			"Samson Siasia": {
+				"1994": 1
+			},
+			"Rashidi Yekini": {
+				"1994": 1
+			},
+			"Own goals": {
+				"1998": 1
+			},
+			"_total": {
+				"1994": 7,
+				"1998": 6,
+				"2002": 1,
+				"2010": 3,
+				"2014": 3,
+				"2018": 3
+			}
+		},
+		"North Korea": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_North_Korea.svg/23px-Flag_of_North_Korea.svg.png",
+			"Pak Seung-zin": {
+				"1966": 2
+			},
+			"Ji Yun-nam": {
+				"2010": 1
+			},
+			"Li Dong-woon": {
+				"1966": 1
+			},
+			"Pak Doo-ik": {
+				"1966": 1
+			},
+			"Yang Seung-kook": {
+				"1966": 1
+			},
+			"_total": {
+				"1966": 5,
+				"2010": 1
+			}
+		},
+		"Northern Ireland": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Ulster_Banner.svg/23px-Ulster_Banner.svg.png",
+			"Peter McParland": {
+				"1958": 5
+			},
+			"Gerry Armstrong": {
+				"1982": 3
+			},
+			"Billy Hamilton": {
+				"1982": 2
+			},
+			"Colin Clarke": {
+				"1986": 1
+			},
+			"Wilbur Cush": {
+				"1958": 1
+			},
+			"Norman Whiteside": {
+				"1986": 1
+			},
+			"_total": {
+				"1958": 6,
+				"1982": 5,
+				"1986": 2
+			}
+		},
+		"Norway": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/21px-Flag_of_Norway.svg.png",
+			"Kjetil Rekdal": {
+				"1994": 1,
+				"1998": 1
+			},
+			"Arne Brustad": {
+				"1938": 1
+			},
+			"Dan Eggen": {
+				"1998": 1
+			},
+			"Håvard Flo": {
+				"1998": 1
+			},
+			"Tore André Flo": {
+				"1998": 1
+			},
+			"Own goals": {
+				"1998": 1
+			},
+			"_total": {
+				"1938": 1,
+				"1994": 1,
+				"1998": 5
+			}
+		},
+		"Panama": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/23px-Flag_of_Panama.svg.png",
+			"Felipe Baloy": {
+				"2018": 1
+			},
+			"Own goals": {
+				"2018": 1
+			},
+			"_total": {
+				"2018": 2
+			}
+		},
+		"Paraguay": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/23px-Flag_of_Paraguay.svg.png",
+			"Nelson Cuevas": {
+				"2002": 2,
+				"2006": 1
+			},
+			"Juan Agüero": {
+				"1958": 2
+			},
+			"Florencio Amarilla": {
+				"1958": 2
+			},
+			"Roberto Cabañas": {
+				"1986": 2
+			},
+			"José Parodi": {
+				"1958": 2
+			},
+			"Jorge Lino Romero": {
+				"1958": 2
+			},
+			"Julio César Romero": {
+				"1986": 2
+			},
+			"Antolín Alcaraz": {
+				"2010": 1
+			},
+			"Francisco Arce": {
+				"2002": 1
+			},
+			"Celso Ayala": {
+				"1998": 1
+			},
+			"Miguel Ángel Benítez": {
+				"1998": 1
+			},
+			"Jorge Luis Campos": {
+				"2002": 1
+			},
+			"José Cardozo": {
+				"1998": 1
+			},
+			"Atilio López": {
+				"1950": 1
+			},
+			"César López": {
+				"1950": 1
+			},
+			"Cayetano Ré": {
+				"1958": 1
+			},
+			"Cristian Riveros": {
+				"2010": 1
+			},
+			"Roque Santa Cruz": {
+				"2002": 1
+			},
+			"Luis Vargas Peña": {
+				"1930": 1
+			},
+			"Enrique Vera": {
+				"2010": 1
+			},
+			"Own goals": {
+				"2002": 1,
+				"2006": 1
+			},
+			"_total": {
+				"1930": 1,
+				"1950": 2,
+				"1958": 9,
+				"1986": 4,
+				"1998": 3,
+				"2002": 6,
+				"2006": 2,
+				"2010": 3
+			}
+		},
+		"Peru": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/23px-Flag_of_Peru_%28state%29.svg.png",
+			"Teófilo Cubillas": {
+				"1970": 5,
+				"1978": 5
+			},
+			"Alberto Gallardo": {
+				"1970": 2
+			},
+			"André Carrillo": {
+				"2018": 1
+			},
+			"Roberto Challe": {
+				"1970": 1
+			},
+			"Héctor Chumpitaz": {
+				"1970": 1
+			},
+			"César Cueto": {
+				"1978": 1
+			},
+			"Luis de Souza Ferreira": {
+				"1930": 1
+			},
+			"Rubén Toribio Díaz": {
+				"1982": 1
+			},
+			"Paolo Guerrero": {
+				"2018": 1
+			},
+			"Guillermo La Rosa": {
+				"1982": 1
+			},
+			"José Velásquez": {
+				"1978": 1
+			},
+			"_total": {
+				"1930": 1,
+				"1970": 9,
+				"1978": 7,
+				"1982": 2,
+				"2018": 2
+			}
+		},
+		"Poland": {
+			"_img": "//upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/23px-Flag_of_Poland.svg.png",
+			"Grzegorz Lato": {
+				"1974": 7,
+				"1978": 2,
+				"1982": 1
+			},
+			"Andrzej Szarmach": {
+				"1974": 5,
+				"1978": 1,
+				"1982": 1
+			},
+			"Zbigniew Boniek": {
+				"1978": 2,
+				"1982": 4
+			},
+			"Kazimierz Deyna": {
+				"1974": 3,
+				"1978": 1
+			},
+			"Ernest Wilimowski": {
+				"1938": 4
+			},
+			"Bartosz Bosacki": {
+				"2006": 2
+			},
+			"Włodzimierz Smolarek": {
+				"1982": 1,
+				"1986": 1
+			},
+			"Jan Bednarek": {
+				"2018": 1
+			},
+			"Andrzej Buncol": {
+				"1982": 1
+			},
+			"Włodzimierz Ciołek": {
+				"1982": 1
+			},
+			"Jerzy Gorgoń": {
+				"1974": 1
+			},
+			"Grzegorz Krychowiak": {
+				"2018": 1
+			},
+			"Paweł Kryszałowicz": {
+				"2002": 1
+			},
+			"Janusz Kupcewicz": {
+				"1982": 1
+			},
+			"Stefan Majewski": {
+				"1982": 1
+			},
+			"Emmanuel Olisadebe": {
+				"2002": 1
+			},
+			"Fryderyk Scherfke": {
+				"1938": 1
+			},
+			"Marcin Żewłakow": {
+				"2002": 1
+			},
+			"_total": {
+				"1938": 5,
+				"1974": 16,
+				"1978": 6,
+				"1982": 11,
+				"1986": 1,
+				"2002": 3,
+				"2006": 2,
+				"2018": 2
+			}
+		},
+		"Portugal": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/23px-Flag_of_Portugal.svg.png",
+			"Eusébio": {
+				"1966": 9
+			},
+			"Cristiano Ronaldo": {
+				"2006": 1,
+				"2010": 1,
+				"2014": 1,
+				"2018": 4
+			},
+			"Pauleta": {
+				"2002": 3,
+				"2006": 1
+			},
+			"José Augusto": {
+				"1966": 3
+			},
+			"José Torres": {
+				"1966": 3
+			},
+			"Maniche": {
+				"2006": 2
+			},
+			"Simão": {
+				"2006": 1,
+				"2010": 1
+			},
+			"Tiago": {
+				"2010": 2
+			},
+			"António Simões": {
+				"1966": 1
+			},
+			"Beto": {
+				"2002": 1
+			},
+			"Carlos Manuel": {
+				"1986": 1
+			},
+			"Deco": {
+				"2006": 1
+			},
+			"Diamantino": {
+				"1986": 1
+			},
+			"Hugo Almeida": {
+				"2010": 1
+			},
+			"Liédson": {
+				"2010": 1
+			},
+			"Raul Meireles": {
+				"2010": 1
+			},
+			"Nani": {
+				"2014": 1
+			},
+			"Nuno Gomes": {
+				"2006": 1
+			},
+			"Pepe": {
+				"2018": 1
+			},
+			"Ricardo Quaresma": {
+				"2018": 1
+			},
+			"Rui Costa": {
+				"2002": 1
+			},
+			"Silvestre Varela": {
+				"2014": 1
+			},
+			"Own goals": {
+				"1966": 1,
+				"2002": 1,
+				"2014": 1
+			},
+			"_total": {
+				"1966": 17,
+				"1986": 2,
+				"2002": 6,
+				"2006": 7,
+				"2010": 7,
+				"2014": 4,
+				"2018": 6
+			}
+		},
+		"Republic of Ireland": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/23px-Flag_of_Ireland.svg.png",
+			"Robbie Keane": {
+				"2002": 3
+			},
+			"John Aldridge": {
+				"1994": 1
+			},
+			"Gary Breen": {
+				"2002": 1
+			},
+			"Damien Duff": {
+				"2002": 1
+			},
+			"Matt Holland": {
+				"2002": 1
+			},
+			"Ray Houghton": {
+				"1994": 1
+			},
+			"Niall Quinn": {
+				"1990": 1
+			},
+			"Kevin Sheedy": {
+				"1990": 1
+			},
+			"_total": {
+				"1990": 2,
+				"1994": 2,
+				"2002": 6
+			}
+		},
+		"Romania": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/23px-Flag_of_Romania.svg.png",
+			"Florin Răducioiu": {
+				"1994": 4
+			},
+			"Ștefan Dobay": {
+				"1934": 1,
+				"1938": 2
+			},
+			"Gheorghe Hagi": {
+				"1994": 3
+			},
+			"Gavril Balint": {
+				"1990": 2
+			},
+			"Florea Dumitrache": {
+				"1970": 2
+			},
+			"Ilie Dumitrescu": {
+				"1994": 2
+			},
+			"Marius Lăcătuș": {
+				"1990": 2
+			},
+			"Viorel Moldovan": {
+				"1998": 2
+			},
+			"Dan Petrescu": {
+				"1994": 1,
+				"1998": 1
+			},
+			"Iuliu Barátky": {
+				"1938": 1
+			},
+			"Silviu Bindea": {
+				"1938": 1
+			},
+			"Emerich Dembrovschi": {
+				"1970": 1
+			},
+			"Adalbert Deșu": {
+				"1930": 1
+			},
+			"Adrian Ilie": {
+				"1998": 1
+			},
+			"Nicolae Kovács": {
+				"1930": 1
+			},
+			"Alexandru Neagu": {
+				"1970": 1
+			},
+			"Constantin Stanciu": {
+				"1930": 1
+			},
+			"_total": {
+				"1930": 3,
+				"1934": 1,
+				"1938": 4,
+				"1970": 4,
+				"1990": 4,
+				"1994": 10,
+				"1998": 4
+			}
+		},
+		"Russia": {
+			"_img": "//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png",
+			"Oleg Salenko": {
+				"1994": 6
+			},
+			"Denis Cheryshev": {
+				"2018": 4
+			},
+			"Artem Dzyuba": {
+				"2018": 3
+			},
+			"Vladimir Beschastnykh": {
+				"2002": 1
+			},
+			"Mário Fernandes": {
+				"2018": 1
+			},
+			"Yury Gazinsky": {
+				"2018": 1
+			},
+			"Aleksandr Golovin": {
+				"2018": 1
+			},
+			"Valery Karpin": {
+				"2002": 1
+			},
+			"Aleksandr Kerzhakov": {
+				"2014": 1
+			},
+			"Aleksandr Kokorin": {
+				"2014": 1
+			},
+			"Dmitri Radchenko": {
+				"1994": 1
+			},
+			"Dmitri Sychev": {
+				"2002": 1
+			},
+			"Egor Titov": {
+				"2002": 1
+			},
+			"Own goals": {
+				"2018": 1
+			},
+			"_total": {
+				"1994": 7,
+				"2002": 4,
+				"2014": 2,
+				"2018": 11
+			}
+		},
+		"Saudi Arabia": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/23px-Flag_of_Saudi_Arabia.svg.png",
+			"Sami Al-Jaber": {
+				"1994": 1,
+				"1998": 1,
+				"2006": 1
+			},
+			"Fuad Amin": {
+				"1994": 2
+			},
+			"Salem Al-Dawsari": {
+				"2018": 1
+			},
+			"Salman Al-Faraj": {
+				"2018": 1
+			},
+			"Fahad Al-Ghesheyan": {
+				"1994": 1
+			},
+			"Saeed Al-Owairan": {
+				"1994": 1
+			},
+			"Yasser Al-Qahtani": {
+				"2006": 1
+			},
+			"Yousuf Al-Thunayan": {
+				"1998": 1
+			},
+			"_total": {
+				"1994": 5,
+				"1998": 2,
+				"2002": 0,
+				"2006": 2,
+				"2018": 2
+			}
+		},
+		"Scotland": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/1/10/Flag_of_Scotland.svg/23px-Flag_of_Scotland.svg.png",
+			"Joe Jordan": {
+				"1974": 2,
+				"1978": 1,
+				"1982": 1
+			},
+			"Kenny Dalglish": {
+				"1978": 1,
+				"1982": 1
+			},
+			"Archie Gemmill": {
+				"1978": 2
+			},
+			"John Wark": {
+				"1982": 2
+			},
+			"Steve Archibald": {
+				"1982": 1
+			},
+			"Sammy Baird": {
+				"1958": 1
+			},
+			"Craig Burley": {
+				"1998": 1
+			},
+			"Bobby Collins": {
+				"1958": 1
+			},
+			"John Collins": {
+				"1998": 1
+			},
+			"Mo Johnston": {
+				"1990": 1
+			},
+			"Peter Lorimer": {
+				"1974": 1
+			},
+			"Stuart McCall": {
+				"1990": 1
+			},
+			"Jackie Mudie": {
+				"1958": 1
+			},
+			"Jimmy Murray": {
+				"1958": 1
+			},
+			"David Narey": {
+				"1982": 1
+			},
+			"John Robertson": {
+				"1982": 1
+			},
+			"Graeme Souness": {
+				"1982": 1
+			},
+			"Gordon Strachan": {
+				"1986": 1
+			},
+			"Own goals": {
+				"1978": 1
+			},
+			"_total": {
+				"1954": 0,
+				"1958": 4,
+				"1974": 3,
+				"1978": 5,
+				"1982": 8,
+				"1986": 1,
+				"1990": 2,
+				"1998": 2
+			}
+		},
+		"Senegal": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/23px-Flag_of_Senegal.svg.png",
+			"Papa Bouba Diop": {
+				"2002": 3
+			},
+			"Henri Camara": {
+				"2002": 2
+			},
+			"Salif Diao": {
+				"2002": 1
+			},
+			"Khalilou Fadiga": {
+				"2002": 1
+			},
+			"Sadio Mané": {
+				"2018": 1
+			},
+			"M'Baye Niang": {
+				"2018": 1
+			},
+			"Moussa Wagué": {
+				"2018": 1
+			},
+			"Own goals": {
+				"2018": 1
+			},
+			"_total": {
+				"2002": 7,
+				"2018": 4
+			}
+		},
+		"Serbia": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/23px-Flag_of_Serbia.svg.png",
+			"Saša Ilić": {
+				"2006": 1
+			},
+			"Milan Jovanović": {
+				"2010": 1
+			},
+			"Aleksandar Kolarov": {
+				"2018": 1
+			},
+			"Aleksandar Mitrović": {
+				"2018": 1
+			},
+			"Marko Pantelić": {
+				"2010": 1
+			},
+			"Nikola Žigić": {
+				"2006": 1
+			},
+			"_total": {
+				"2006": 2,
+				"2010": 2,
+				"2018": 2
+			}
+		},
+		"Slovakia": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/23px-Flag_of_Slovakia.svg.png",
+			"Róbert Vittek": {
+				"2010": 4
+			},
+			"Kamil Kopúnek": {
+				"2010": 1
+			},
+			"_total": {
+				"2010": 5
+			}
+		},
+		"Slovenia": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/23px-Flag_of_Slovenia.svg.png",
+			"Milenko Ačimovič": {
+				"2002": 1
+			},
+			"Valter Birsa": {
+				"2010": 1
+			},
+			"Sebastjan Cimirotič": {
+				"2002": 1
+			},
+			"Robert Koren": {
+				"2010": 1
+			},
+			"Zlatan Ljubijankić": {
+				"2010": 1
+			},
+			"_total": {
+				"2002": 2,
+				"2010": 3
+			}
+		},
+		"South Africa": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/23px-Flag_of_South_Africa.svg.png",
+			"Shaun Bartlett": {
+				"1998": 2
+			},
+			"Benni McCarthy": {
+				"1998": 1,
+				"2002": 1
+			},
+			"Quinton Fortune": {
+				"2002": 1
+			},
+			"Bongani Khumalo": {
+				"2010": 1
+			},
+			"Teboho Mokoena": {
+				"2002": 1
+			},
+			"Katlego Mphela": {
+				"2010": 1
+			},
+			"Siyabonga Nomvethe": {
+				"2002": 1
+			},
+			"Lucas Radebe": {
+				"2002": 1
+			},
+			"Siphiwe Tshabalala": {
+				"2010": 1
+			},
+			"_total": {
+				"1998": 3,
+				"2002": 5,
+				"2010": 3
+			}
+		},
+		"South Korea": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/23px-Flag_of_South_Korea.svg.png",
+			"Ahn Jung-hwan": {
+				"2002": 2,
+				"2006": 1
+			},
+			"Park Ji-sung": {
+				"2002": 1,
+				"2006": 1,
+				"2010": 1
+			},
+			"Son Heung-min": {
+				"2014": 1,
+				"2018": 2
+			},
+			"Hong Myung-bo": {
+				"1994": 2
+			},
+			"Hwang Sun-hong": {
+				"1994": 1,
+				"2002": 1
+			},
+			"Lee Chung-yong": {
+				"2010": 2
+			},
+			"Lee Jung-soo": {
+				"2010": 2
+			},
+			"Yoo Sang-chul": {
+				"1998": 1,
+				"2002": 1
+			},
+			"Choi Soon-ho": {
+				"1986": 1
+			},
+			"Ha Seok-ju": {
+				"1998": 1
+			},
+			"Hwangbo Kwan": {
+				"1990": 1
+			},
+			"Huh Jung-moo": {
+				"1986": 1
+			},
+			"Kim Jong-boo": {
+				"1986": 1
+			},
+			"Kim Young-gwon": {
+				"2018": 1
+			},
+			"Koo Ja-cheol": {
+				"2014": 1
+			},
+			"Lee Chun-soo": {
+				"2006": 1
+			},
+			"Lee Eul-yong": {
+				"2002": 1
+			},
+			"Lee Keun-ho": {
+				"2014": 1
+			},
+			"Park Chang-sun": {
+				"1986": 1
+			},
+			"Park Chu-young": {
+				"2010": 1
+			},
+			"Seo Jung-won": {
+				"1994": 1
+			},
+			"Seol Ki-hyeon": {
+				"2002": 1
+			},
+			"Song Chong-gug": {
+				"2002": 1
+			},
+			"_total": {
+				"1954": 0,
+				"1986": 4,
+				"1990": 1,
+				"1994": 4,
+				"1998": 2,
+				"2002": 8,
+				"2006": 3,
+				"2010": 6,
+				"2014": 3,
+				"2018": 3
+			}
+		},
+		"Soviet Union": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png",
+			"Valentin Ivanov": {
+				"1958": 1,
+				"1962": 4
+			},
+			"Igor Belanov": {
+				"1986": 4
+			},
+			"Anatoliy Byshovets": {
+				"1970": 4
+			},
+			"Igor Chislenko": {
+				"1962": 2,
+				"1966": 2
+			},
+			"Valeriy Porkuyan": {
+				"1966": 4
+			},
+			"Eduard Malofeyev": {
+				"1966": 3
+			},
+			"Oleg Blokhin": {
+				"1982": 1,
+				"1986": 1
+			},
+			"Aleksandr Ivanov": {
+				"1958": 2
+			},
+			"Viktor Ponedelnik": {
+				"1962": 2
+			},
+			"Aleksandr Zavarov": {
+				"1986": 1,
+				"1990": 1
+			},
+			"Sergei Aleinikov": {
+				"1986": 1
+			},
+			"Kakhi Asatiani": {
+				"1970": 1
+			},
+			"Andriy Bal": {
+				"1982": 1
+			},
+			"Sergei Baltacha": {
+				"1982": 1
+			},
+			"Anatoliy Banishevskiy": {
+				"1966": 1
+			},
+			"Aleksandr Chivadze": {
+				"1982": 1
+			},
+			"Igor Dobrovolski": {
+				"1990": 1
+			},
+			"Yuri Gavrilov": {
+				"1982": 1
+			},
+			"Anatoli Ilyin": {
+				"1958": 1
+			},
+			"Vitaly Khmelnitsky": {
+				"1970": 1
+			},
+			"Aleksei Mamykin": {
+				"1962": 1
+			},
+			"Khoren Hovhannisyan": {
+				"1982": 1
+			},
+			"Oleg Protasov": {
+				"1990": 1
+			},
+			"Vasiliy Rats": {
+				"1986": 1
+			},
+			"Sergey Rodionov": {
+				"1986": 1
+			},
+			"Ramaz Shengelia": {
+				"1982": 1
+			},
+			"Nikita Simonyan": {
+				"1958": 1
+			},
+			"Pavel Yakovenko": {
+				"1986": 1
+			},
+			"Ivan Yaremchuk": {
+				"1986": 1
+			},
+			"Andrei Zygmantovich": {
+				"1990": 1
+			},
+			"Own goals": {
+				"1986": 1
+			},
+			"_total": {
+				"1958": 5,
+				"1962": 9,
+				"1966": 10,
+				"1970": 6,
+				"1982": 7,
+				"1986": 12,
+				"1990": 4
+			}
+		},
+		"Spain": {
+			"_img": "//upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/23px-Flag_of_Spain.svg.png",
+			"David Villa": {
+				"2006": 3,
+				"2010": 5,
+				"2014": 1
+			},
+			"Emilio Butragueño": {
+				"1986": 5
+			},
+			"Fernando Hierro": {
+				"1994": 1,
+				"1998": 2,
+				"2002": 2
+			},
+			"Fernando Morientes": {
+				"1998": 2,
+				"2002": 3
+			},
+			"Raúl": {
+				"1998": 1,
+				"2002": 3,
+				"2006": 1
+			},
+			"Estanislao Basora": {
+				"1950": 4
+			},
+			"Míchel": {
+				"1990": 4
+			},
+			"Fernando Torres": {
+				"2006": 3,
+				"2014": 1
+			},
+			"Telmo Zarra": {
+				"1950": 4
+			},
+			"José Luis Caminero": {
+				"1994": 3
+			},
+			"Diego Costa": {
+				"2018": 3
+			},
+			"Julio Salinas": {
+				"1986": 1,
+				"1990": 1,
+				"1994": 1
+			},
+			"Xabi Alonso": {
+				"2006": 1,
+				"2014": 1
+			},
+			"Ramón Calderé": {
+				"1986": 2
+			},
+			"Andoni Goikoetxea": {
+				"1986": 1
+			},
+			"Silvestre Igoa": {
+				"1950": 2
+			},
+			"Andrés Iniesta": {
+				"2010": 2
+			},
+			"José Iraragorri": {
+				"1934": 2
+			},
+			"Luis Enrique": {
+				"1994": 1,
+				"1998": 1
+			},
+			"Abelardo": {
+				"1962": 1
+			},
+			"Amancio Amaro": {
+				"1966": 1
+			},
+			"Juan Manuel Asensi": {
+				"1978": 1
+			},
+			"Iago Aspas": {
+				"2018": 1
+			},
+			"Txiki Begiristain": {
+				"1994": 1
+			},
+			"Dani": {
+				"1978": 1
+			},
+			"Eloy": {
+				"1986": 1
+			},
+			"Josep Maria Fusté": {
+				"1966": 1
+			},
+			"Alberto Górriz": {
+				"1990": 1
+			},
+			"Pep Guardiola": {
+				"1994": 1
+			},
+			"Isco": {
+				"2018": 1
+			},
+			"Juanito": {
+				"2006": 1
+			},
+			"Kiko": {
+				"1998": 1
+			},
+			"Isidro Lángara": {
+				"1934": 1
+			},
+			"Roberto López Ufarte": {
+				"1982": 1
+			},
+			"Juan Mata": {
+				"2014": 1
+			},
+			"Gaizka Mendieta": {
+				"2002": 1
+			},
+			"Nacho": {
+				"2018": 1
+			},
+			"Joaquín Peiró": {
+				"1962": 1
+			},
+			"Pirri": {
+				"1966": 1
+			},
+			"Carles Puyol": {
+				"2010": 1
+			},
+			"Luis Regueiro": {
+				"1934": 1
+			},
+			"Manuel Sanchís": {
+				"1966": 1
+			},
+			"Enrique Saura": {
+				"1982": 1
+			},
+			"Juan Antonio Señor": {
+				"1986": 1
+			},
+			"Juan Carlos Valerón": {
+				"2002": 1
+			},
+			"Jesús María Zamora": {
+				"1982": 1
+			},
+			"Own goals": {
+				"1998": 1,
+				"2018": 1
+			},
+			"_total": {
+				"1934": 4,
+				"1950": 10,
+				"1962": 2,
+				"1966": 4,
+				"1978": 2,
+				"1982": 4,
+				"1986": 11,
+				"1990": 6,
+				"1994": 10,
+				"1998": 8,
+				"2002": 10,
+				"2006": 9,
+				"2010": 8,
+				"2014": 4,
+				"2018": 7
+			}
+		},
+		"Sweden": {
+			"_img": "//upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/23px-Flag_of_Sweden.svg.png",
+			"Kennet Andersson": {
+				"1994": 5
+			},
+			"Henrik Larsson": {
+				"1994": 1,
+				"2002": 3,
+				"2006": 1
+			},
+			"Tomas Brolin": {
+				"1990": 1,
+				"1994": 3
+			},
+			"Martin Dahlin": {
+				"1994": 4
+			},
+			"Ralf Edström": {
+				"1974": 4
+			},
+			"Kurt Hamrin": {
+				"1958": 4
+			},
+			"Agne Simonsson": {
+				"1958": 4
+			},
+			"Harry Andersson": {
+				"1938": 3
+			},
+			"Sven Jonasson": {
+				"1934": 2,
+				"1938": 1
+			},
+			"Arne Nyberg": {
+				"1938": 3
+			},
+			"Karl-Erik Palmér": {
+				"1950": 3
+			},
+			"Stig Sundqvist": {
+				"1950": 3
+			},
+			"Gustav Wetterström": {
+				"1938": 3
+			},
+			"Sune Andersson": {
+				"1950": 2
+			},
+			"Andreas Granqvist": {
+				"2018": 2
+			},
+			"Hasse Jeppson": {
+				"1950": 2
+			},
+			"Nils Liedholm": {
+				"1958": 2
+			},
+			"Roland Sandberg": {
+				"1974": 2
+			},
+			"Niclas Alexandersson": {
+				"2002": 1
+			},
+			"Marcus Allbäck": {
+				"2006": 1
+			},
+			"Ludwig Augustinsson": {
+				"2018": 1
+			},
+			"Gösta Dunker": {
+				"1934": 1
+			},
+			"Johnny Ekström": {
+				"1990": 1
+			},
+			"Emil Forsberg": {
+				"2018": 1
+			},
+			"Ove Grahn": {
+				"1970": 1
+			},
+			"Gunnar Gren": {
+				"1958": 1
+			},
+			"Tore Keller": {
+				"1938": 1
+			},
+			"Knut Kroon": {
+				"1934": 1
+			},
+			"Roger Ljung": {
+				"1994": 1
+			},
+			"Freddie Ljungberg": {
+				"2006": 1
+			},
+			"Bror Mellberg": {
+				"1950": 1
+			},
+			"Håkan Mild": {
+				"1994": 1
+			},
+			"Thomas Sjöberg": {
+				"1978": 1
+			},
+			"Lennart Skoglund": {
+				"1958": 1
+			},
+			"Glenn Strömberg": {
+				"1990": 1
+			},
+			"Anders Svensson": {
+				"2002": 1
+			},
+			"Ola Toivonen": {
+				"2018": 1
+			},
+			"Conny Torstensson": {
+				"1974": 1
+			},
+			"Tom Turesson": {
+				"1970": 1
+			},
+			"Own goals": {
+				"2018": 1
+			},
+			"_total": {
+				"1934": 4,
+				"1938": 11,
+				"1950": 11,
+				"1958": 12,
+				"1970": 2,
+				"1974": 7,
+				"1978": 1,
+				"1990": 3,
+				"1994": 15,
+				"2002": 5,
+				"2006": 3,
+				"2018": 6
+			}
+		},
+		"Switzerland": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/16px-Flag_of_Switzerland.svg.png",
+			"Josef Hügi": {
+				"1954": 6
+			},
+			"André Abegglen": {
+				"1934": 1,
+				"1938": 3
+			},
+			"Robert Ballaman": {
+				"1954": 4
+			},
+			"Xherdan Shaqiri": {
+				"2014": 3,
+				"2018": 1
+			},
+			"Jacques Fatton": {
+				"1950": 2,
+				"1954": 1
+			},
+			"Leopold Kielholz": {
+				"1934": 3
+			},
+			"Blerim Džemaili": {
+				"2014": 1,
+				"2018": 1
+			},
+			"Alexander Frei": {
+				"2006": 2
+			},
+			"Adrian Knup": {
+				"1994": 2
+			},
+			"Granit Xhaka": {
+				"2014": 1,
+				"2018": 1
+			},
+			"Charles Antenen": {
+				"1950": 1
+			},
+			"René Bader": {
+				"1950": 1
+			},
+			"Tranquillo Barnetta": {
+				"2006": 1
+			},
+			"Alfred Bickel": {
+				"1938": 1
+			},
+			"Georges Bregy": {
+				"1994": 1
+			},
+			"Stéphane Chapuisat": {
+				"1994": 1
+			},
+			"Josip Drmić": {
+				"2018": 1
+			},
+			"Gelson Fernandes": {
+				"2010": 1
+			},
+			"Willy Jäggi": {
+				"1934": 1
+			},
+			"Admir Mehmedi": {
+				"2014": 1
+			},
+			"René-Pierre Quentin": {
+				"1966": 1
+			},
+			"Heinz Schneiter": {
+				"1962": 1
+			},
+			"Haris Seferović": {
+				"2014": 1
+			},
+			"Philippe Senderos": {
+				"2006": 1
+			},
+			"Alain Sutter": {
+				"1994": 1
+			},
+			"Eugen Walaschek": {
+				"1938": 1
+			},
+			"Rolf Wüthrich": {
+				"1962": 1
+			},
+			"Steven Zuber": {
+				"2018": 1
+			},
+			"_total": {
+				"1934": 5,
+				"1938": 5,
+				"1950": 4,
+				"1954": 11,
+				"1962": 2,
+				"1966": 1,
+				"1994": 5,
+				"2006": 4,
+				"2010": 1,
+				"2014": 7,
+				"2018": 5
+			}
+		},
+		"Togo": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_Togo.svg/23px-Flag_of_Togo.svg.png",
+			"Mohamed Kader": {
+				"2006": 1
+			},
+			"_total": {
+				"2006": 1
+			}
+		},
+		"Trinidad and Tobago": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Trinidad_and_Tobago.svg/23px-Flag_of_Trinidad_and_Tobago.svg.png",
+			"_total": {
+				"2006": 0
+			}
+		},
+		"Tunisia": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/23px-Flag_of_Tunisia.svg.png",
+			"Wahbi Khazri": {
+				"2018": 2
+			},
+			"Fakhreddine Ben Youssef": {
+				"2018": 1
+			},
+			"Raouf Bouzaiene": {
+				"2002": 1
+			},
+			"Dylan Bronn": {
+				"2018": 1
+			},
+			"Mokhtar Dhouib": {
+				"1978": 1
+			},
+			"Néjib Ghommidh": {
+				"1978": 1
+			},
+			"Radhi Jaïdi": {
+				"2006": 1
+			},
+			"Ziad Jaziri": {
+				"2006": 1
+			},
+			"Ali Kaabi": {
+				"1978": 1
+			},
+			"Jawhar Mnari": {
+				"2006": 1
+			},
+			"Ferjani Sassi": {
+				"2018": 1
+			},
+			"Skander Souayah": {
+				"1998": 1
+			},
+			"_total": {
+				"1978": 3,
+				"1998": 1,
+				"2002": 1,
+				"2006": 3,
+				"2018": 5
+			}
+		},
+		"Turkey": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/23px-Flag_of_Turkey.svg.png",
+			"Burhan Sargun": {
+				"1954": 3
+			},
+			"İlhan Mansız": {
+				"2002": 3
+			},
+			"Suat Mamat": {
+				"1954": 3
+			},
+			"Hasan Şaş": {
+				"2002": 2
+			},
+			"Lefter Küçükandonyadis": {
+				"1954": 2
+			},
+			"Ümit Davala": {
+				"2002": 2
+			},
+			"Bülent Korkmaz": {
+				"2002": 1
+			},
+			"Emre Belözoğlu": {
+				"2002": 1
+			},
+			"Erol Keskin": {
+				"1954": 1
+			},
+			"Hakan Şükür": {
+				"2002": 1
+			},
+			"Mustafa Ertan": {
+				"1954": 1
+			},
+			"_total": {
+				"1954": 10,
+				"2002": 10
+			}
+		},
+		"Ukraine": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/23px-Flag_of_Ukraine.svg.png",
+			"Andriy Shevchenko": {
+				"2006": 2
+			},
+			"Maksym Kalynychenko": {
+				"2006": 1
+			},
+			"Serhiy Rebrov": {
+				"2006": 1
+			},
+			"Andriy Rusol": {
+				"2006": 1
+			},
+			"_total": {
+				"2006": 5
+			}
+		},
+		"United Arab Emirates": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/23px-Flag_of_the_United_Arab_Emirates.svg.png",
+			"Ali Thani": {
+				"1990": 1
+			},
+			"Khalid Ismaïl": {
+				"1990": 1
+			},
+			"_total": {
+				"1990": 2
+			}
+		},
+		"United States": {
+			"_img": "//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/23px-Flag_of_the_United_States.svg.png",
+			"Landon Donovan": {
+				"2002": 2,
+				"2010": 3
+			},
+			"Clint Dempsey": {
+				"2006": 1,
+				"2010": 1,
+				"2014": 2
+			},
+			"Bert Patenaude": {
+				"1930": 4
+			},
+			"Brian McBride": {
+				"1998": 1,
+				"2002": 2
+			},
+			"Michael Bradley": {
+				"2010": 1
+			},
+			"John Brooks": {
+				"2014": 1
+			},
+			"Jim Brown": {
+				"1930": 1
+			},
+			"Paul Caligiuri": {
+				"1990": 1
+			},
+			"Aldo Donelli": {
+				"1934": 1
+			},
+			"Tom Florie": {
+				"1930": 1
+			},
+			"Joe Gaetjens": {
+				"1950": 1
+			},
+			"Julian Green": {
+				"2014": 1
+			},
+			"Jermaine Jones": {
+				"2014": 1
+			},
+			"Joe Maca": {
+				"1950": 1
+			},
+			"Clint Mathis": {
+				"2002": 1
+			},
+			"Bart McGhee": {
+				"1930": 1
+			},
+			"Bruce Murray": {
+				"1990": 1
+			},
+			"John O'Brien": {
+				"2002": 1
+			},
+			"Gino Pariani": {
+				"1950": 1
+			},
+			"Earnie Stewart": {
+				"1994": 1
+			},
+			"Frank Wallace": {
+				"1950": 1
+			},
+			"Eric Wynalda": {
+				"1994": 1
+			},
+			"Own goals": {
+				"1994": 1,
+				"2002": 1,
+				"2006": 1
+			},
+			"_total": {
+				"1930": 7,
+				"1934": 1,
+				"1950": 4,
+				"1990": 2,
+				"1994": 3,
+				"1998": 1,
+				"2002": 7,
+				"2006": 2,
+				"2010": 5,
+				"2014": 5
+			}
+		},
+		"Uruguay": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/23px-Flag_of_Uruguay.svg.png",
+			"Óscar Míguez": {
+				"1950": 5,
+				"1954": 3
+			},
+			"Luis Suárez": {
+				"2010": 3,
+				"2014": 2,
+				"2018": 2
+			},
+			"Diego Forlán": {
+				"2002": 1,
+				"2010": 5
+			},
+			"Edinson Cavani": {
+				"2010": 1,
+				"2014": 1,
+				"2018": 3
+			},
+			"Pedro Cea": {
+				"1930": 5
+			},
+			"Juan Alberto Schiaffino": {
+				"1950": 3,
+				"1954": 2
+			},
+			"Carlos Borges": {
+				"1954": 4
+			},
+			"Alcides Ghiggia": {
+				"1950": 4
+			},
+			"Peregrino Anselmo": {
+				"1930": 3
+			},
+			"Juan Hohberg": {
+				"1954": 3
+			},
+			"Julio Abbadie": {
+				"1954": 2
+			},
+			"Héctor Castro": {
+				"1930": 2
+			},
+			"Luis Cubilla": {
+				"1962": 1,
+				"1970": 1
+			},
+			"Pablo Dorado": {
+				"1930": 2
+			},
+			"Santos Iriarte": {
+				"1930": 2
+			},
+			"José Sasía": {
+				"1962": 2
+			},
+			"Obdulio Varela": {
+				"1950": 1,
+				"1954": 1
+			},
+			"Antonio Alzamendi": {
+				"1986": 1
+			},
+			"Javier Ambrois": {
+				"1954": 1
+			},
+			"Pablo Bengoechea": {
+				"1990": 1
+			},
+			"Ángel Cabrera": {
+				"1962": 1
+			},
+			"Julio César Cortés": {
+				"1966": 1
+			},
+			"Víctor Espárrago": {
+				"1970": 1
+			},
+			"Enzo Francescoli": {
+				"1986": 1
+			},
+			"Daniel Fonseca": {
+				"1990": 1
+			},
+			"José Giménez": {
+				"2018": 1
+			},
+			"Diego Godín": {
+				"2014": 1
+			},
+			"Ildo Maneiro": {
+				"1970": 1
+			},
+			"Richard Morales": {
+				"2002": 1
+			},
+			"Juan Mujica": {
+				"1970": 1
+			},
+			"Ricardo Pavoni": {
+				"1974": 1
+			},
+			"Álvaro Pereira": {
+				"2010": 1
+			},
+			"Maxi Pereira": {
+				"2010": 1
+			},
+			"Julio Pérez": {
+				"1950": 1
+			},
+			"Álvaro Recoba": {
+				"2002": 1
+			},
+			"Pedro Rocha": {
+				"1966": 1
+			},
+			"Darío Rodríguez": {
+				"2002": 1
+			},
+			"Héctor Scarone": {
+				"1930": 1
+			},
+			"Ernesto Vidal": {
+				"1950": 1
+			},
+			"Own goals": {
+				"2018": 1
+			},
+			"_total": {
+				"1930": 15,
+				"1950": 15,
+				"1954": 16,
+				"1962": 4,
+				"1966": 2,
+				"1970": 4,
+				"1974": 1,
+				"1986": 2,
+				"1990": 2,
+				"2002": 4,
+				"2010": 11,
+				"2014": 4,
+				"2018": 7
+			}
+		},
+		"Wales": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Wales_%281959%E2%80%93present%29.svg/23px-Flag_of_Wales_%281959%E2%80%93present%29.svg.png",
+			"Ivor Allchurch": {
+				"1958": 2
+			},
+			"John Charles": {
+				"1958": 1
+			},
+			"Terry Medwin": {
+				"1958": 1
+			},
+			"_total": {
+				"1958": 4
+			}
+		},
+		"Yugoslavia": {
+			"_img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/61/Flag_of_Yugoslavia_%281946-1992%29.svg/23px-Flag_of_Yugoslavia_%281946-1992%29.svg.png",
+			"Dražan Jerković": {
+				"1962": 4
+			},
+			"Ivan Bek": {
+				"1930": 3
+			},
+			"Dušan Bajević": {
+				"1974": 3
+			},
+			"Dragan Stojković": {
+				"1990": 2,
+				"1998": 1
+			},
+			"Todor Veselinović": {
+				"1958": 3
+			},
+			"Željko Čajkovski": {
+				"1950": 2
+			},
+			"Milan Galić": {
+				"1962": 3
+			},
+			"Davor Jozić": {
+				"1990": 2
+			},
+			"Stanislav Karasi": {
+				"1974": 2
+			},
+			"Slobodan Komljenović": {
+				"1998": 2
+			},
+			"Darko Pančev": {
+				"1990": 2
+			},
+			"Aleksandar Petaković": {
+				"1958": 2
+			},
+			"Ivica Šurjak": {
+				"1974": 2
+			},
+			"Kosta Tomašević": {
+				"1950": 2
+			},
+			"Đorđe Vujadinović": {
+				"1930": 2
+			},
+			"Stjepan Bobek": {
+				"1950": 1
+			},
+			"Vladislav Bogićević": {
+				"1974": 1
+			},
+			"Dragan Džajić": {
+				"1974": 1
+			},
+			"Ivan Gudelj": {
+				"1982": 1
+			},
+			"Josip Katalinski": {
+				"1974": 1
+			},
+			"Blagoje Marjanović": {
+				"1930": 1
+			},
+			"Siniša Mihajlović": {
+				"1998": 1
+			},
+			"Predrag Mijatović": {
+				"1998": 1
+			},
+			"Miloš Milutinović": {
+				"1954": 1
+			},
+			"Vojislav Melić": {
+				"1962": 1
+			},
+			"Rajko Mitić": {
+				"1950": 1
+			},
+			"Branko Oblak": {
+				"1974": 1
+			},
+			"Tihomir Ognjanov": {
+				"1950": 1
+			},
+			"Radivoje Ognjanović": {
+				"1958": 1
+			},
+			"Ilija Petković": {
+				"1974": 1
+			},
+			"Vladimir Petrović": {
+				"1982": 1
+			},
+			"Robert Prosinečki": {
+				"1990": 1
+			},
+			"Petar Radaković": {
+				"1962": 1
+			},
+			"Zdravko Rajkov": {
+				"1958": 1
+			},
+			"Josip Skoblar": {
+				"1962": 1
+			},
+			"Safet Sušić": {
+				"1990": 1
+			},
+			"Aleksandar Tirnanić": {
+				"1930": 1
+			},
+			"Branko Zebec": {
+				"1954": 1
+			},
+			"_total": {
+				"1930": 7,
+				"1950": 7,
+				"1954": 2,
+				"1958": 7,
+				"1962": 10,
+				"1974": 12,
+				"1982": 2,
+				"1990": 8,
+				"1998": 5
+			}
+		}
+	},
+	"hosts": {
+		"1930": {
+			"_pageId": "1930_FIFA_World_Cup",
+			"_year": "1930",
+			"_host": "Uruguay",
+			"_logo": "//upload.wikimedia.org/wikipedia/commons/thumb/4/42/Uruguay_1930_World_Cup.jpg/175px-Uruguay_1930_World_Cup.jpg"
+		},
+		"1934": {
+			"_pageId": "1934_FIFA_World_Cup",
+			"_year": "1934",
+			"_host": "Italy",
+			"_logo": "//upload.wikimedia.org/wikipedia/en/thumb/3/37/WorldCup1934poster.jpg/150px-WorldCup1934poster.jpg"
+		},
+		"1938": {
+			"_pageId": "1938_FIFA_World_Cup",
+			"_year": "1938",
+			"_host": "France",
+			"_logo": "//upload.wikimedia.org/wikipedia/en/thumb/f/f7/WorldCup1938poster.jpg/150px-WorldCup1938poster.jpg"
+		},
+		"1950": {
+			"_pageId": "1950_FIFA_World_Cup",
+			"_year": "1950",
+			"_host": "Brazil",
+			"_logo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/07/Selo_da_Copa_de_1950_Cr_1%2C20.jpg/250px-Selo_da_Copa_de_1950_Cr_1%2C20.jpg"
+		},
+		"1954": {
+			"_pageId": "1954_FIFA_World_Cup",
+			"_year": "1954",
+			"_host": "Switzerland",
+			"_logo": "//upload.wikimedia.org/wikipedia/en/1/1e/1954_FIFA_World_Cup.jpg"
+		},
+		"1958": {
+			"_pageId": "1958_FIFA_World_Cup",
+			"_year": "1958",
+			"_host": "Sweden",
+			"_logo": "//upload.wikimedia.org/wikipedia/en/thumb/e/e5/1958_FIFA_World_Cup.jpg/200px-1958_FIFA_World_Cup.jpg"
+		},
+		"1962": {
+			"_pageId": "1962_FIFA_World_Cup",
+			"_year": "1962",
+			"_host": "Chile",
+			"_logo": "//upload.wikimedia.org/wikipedia/en/3/38/1962_FIFA_World_Cup.jpg"
+		},
+		"1966": {
+			"_pageId": "1966_FIFA_World_Cup",
+			"_year": "1966",
+			"_host": "England",
+			"_logo": "//upload.wikimedia.org/wikipedia/en/thumb/e/e9/1966_FIFA_World_Cup.png/200px-1966_FIFA_World_Cup.png"
+		},
+		"1970": {
+			"_pageId": "1970_FIFA_World_Cup",
+			"_year": "1970",
+			"_host": "Mexico",
+			"_logo": "//upload.wikimedia.org/wikipedia/en/thumb/6/66/1970_FIFA_World_Cup.svg/175px-1970_FIFA_World_Cup.svg.png"
+		},
+		"1974": {
+			"_pageId": "1974_FIFA_World_Cup",
+			"_year": "1974",
+			"_host": "West Germany",
+			"_logo": "//upload.wikimedia.org/wikipedia/en/thumb/7/74/1974_FIFA_World_Cup.svg/175px-1974_FIFA_World_Cup.svg.png"
+		},
+		"1978": {
+			"_pageId": "1978_FIFA_World_Cup",
+			"_year": "1978",
+			"_host": "Argentina",
+			"_logo": "//upload.wikimedia.org/wikipedia/en/thumb/3/39/1978_FIFA_World_Cup.svg/175px-1978_FIFA_World_Cup.svg.png"
+		},
+		"1982": {
+			"_pageId": "1982_FIFA_World_Cup",
+			"_year": "1982",
+			"_host": "Spain",
+			"_logo": "//upload.wikimedia.org/wikipedia/en/thumb/3/32/1982_FIFA_World_Cup.svg/200px-1982_FIFA_World_Cup.svg.png"
+		},
+		"1986": {
+			"_pageId": "1986_FIFA_World_Cup",
+			"_year": "1986",
+			"_host": "Mexico",
+			"_logo": "//upload.wikimedia.org/wikipedia/en/thumb/7/77/1986_FIFA_World_Cup.svg/175px-1986_FIFA_World_Cup.svg.png"
+		},
+		"1990": {
+			"_pageId": "1990_FIFA_World_Cup",
+			"_year": "1990",
+			"_host": "Italy",
+			"_logo": "//upload.wikimedia.org/wikipedia/en/thumb/a/a9/1990_FIFA_World_Cup.svg/175px-1990_FIFA_World_Cup.svg.png"
+		},
+		"1994": {
+			"_pageId": "1994_FIFA_World_Cup",
+			"_year": "1994",
+			"_host": "United States",
+			"_logo": "//upload.wikimedia.org/wikipedia/en/thumb/d/dc/1994_FIFA_World_Cup.svg/150px-1994_FIFA_World_Cup.svg.png"
+		},
+		"1998": {
+			"_pageId": "1998_FIFA_World_Cup",
+			"_year": "1998",
+			"_host": "France",
+			"_logo": "//upload.wikimedia.org/wikipedia/en/thumb/d/d3/1998_FIFA_World_Cup.svg/175px-1998_FIFA_World_Cup.svg.png"
+		},
+		"2002": {
+			"_pageId": "2002_FIFA_World_Cup",
+			"_year": "2002",
+			"_host": "Japan South Korea",
+			"_logo": "//upload.wikimedia.org/wikipedia/en/thumb/c/ce/2002_FIFA_World_Cup.svg/175px-2002_FIFA_World_Cup.svg.png"
+		},
+		"2006": {
+			"_pageId": "2006_FIFA_World_Cup",
+			"_year": "2006",
+			"_host": "Germany",
+			"_logo": "//upload.wikimedia.org/wikipedia/en/thumb/6/6b/2006_FIFA_World_Cup.svg/175px-2006_FIFA_World_Cup.svg.png"
+		},
+		"2010": {
+			"_pageId": "2010_FIFA_World_Cup",
+			"_year": "2010",
+			"_host": "South Africa",
+			"_logo": "//upload.wikimedia.org/wikipedia/en/thumb/0/0d/2010_FIFA_World_Cup.svg/200px-2010_FIFA_World_Cup.svg.png"
+		},
+		"2014": {
+			"_pageId": "2014_FIFA_World_Cup",
+			"_year": "2014",
+			"_host": "Brazil",
+			"_logo": "//upload.wikimedia.org/wikipedia/en/thumb/1/1d/2014_FIFA_World_Cup.svg/184px-2014_FIFA_World_Cup.svg.png"
+		},
+		"2018": {
+			"_pageId": "2018_FIFA_World_Cup",
+			"_year": "2018",
+			"_host": "Russia",
+			"_logo": "//upload.wikimedia.org/wikipedia/en/thumb/6/67/2018_FIFA_World_Cup.svg/227px-2018_FIFA_World_Cup.svg.png"
+		},
+		"2022": {
+			"_pageId": "2022_FIFA_World_Cup",
+			"_year": "2022",
+			"_host": "Qatar",
+			"_logo": "//upload.wikimedia.org/wikipedia/en/thumb/a/ac/2022_FIFA_World_Cup.png/209px-2022_FIFA_World_Cup.png"
+		},
+		"2026": {
+			"_pageId": "2026_FIFA_World_Cup",
+			"_year": "2026",
+			"_host": "Canada Mexico United States",
+			"_logo": "//upload.wikimedia.org/wikipedia/en/thumb/3/33/USA-Canada-Mexico_2026_World_Cup_Bid_Logo.svg/160px-USA-Canada-Mexico_2026_World_Cup_Bid_Logo.svg.png"
+		}
+	}
+}
