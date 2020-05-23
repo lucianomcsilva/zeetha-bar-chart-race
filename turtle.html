@@ -2,7 +2,7 @@
 <head>
    <meta charset="utf-8">
    <script src="https://d3js.org/d3.v5.min.js"></script>
-   <title>Zeetha Bar Chart Race</title>
+   <title>ROS bar chart race</title>
    <style>
    text{
        font-size: 16px;
@@ -63,50 +63,44 @@
    .forkme > a{
        text-decoration: none;
    }
-   body{
-      padding:0px;
-      margin:0px;
-   }
    </style>
 </head>
 
 <body>
    <script>
 
-/* Supporting Functions */
-
 function distro_color(distro)
 {
   if (distro === 'fuerte')
-    return '#be6d7e'
+    return '#be6d7eaa'
   if (distro === 'groovy')
-    return '#e13176'
+    return '#e13176aa'
   if (distro === 'hydro')
-    return '#1eb4c7'
+    return '#1eb4c7aa'
   if (distro === 'indigo')
-    return '#051a3a'
+    return '#051a3aaa'
   if (distro === 'jade')
-    return '#00a368'
+    return '#00a368aa'
   if (distro === 'kinetic')
-    return '#000000'
+    return '#000000aa'
   if (distro === 'lunar')
-    return '#676767'
+    return '#676767aa'
   if (distro === 'melodic')
-    return '#5782b8'
+    return '#5782b8aa'
   if (distro === 'noetic')
-    return '#ffffff'
+    return '#ffffffaa'
   if (distro === 'ardent')
-    return '#005703'
+    return '#005703aa'
   if (distro === 'bouncy')
-    return '#505050'
+    return '#505050aa'
   if (distro === 'crystal')
-    return '#4e3a7b'
+    return '#4e3a7baa'
   if (distro === 'dashing')
-    return '#47bfc4'
+    return '#47bfc4aa'
   if (distro === 'eloquent')
-    return '#228b22'
+    return '#228b22aa'
   if (distro === 'foxy')
-    return '#000000'
+    return '#000000aa'
 }
 
 var months = [
@@ -155,18 +149,13 @@ function month_decimal(year, month)
   return Math.floor(100*(year + month / 12))/100
 }
 
-const halo = function(text, strokeWidth) {
-   text.select(function() { return this.parentNode.insertBefore(this.cloneNode(true), this); })
-      .style('fill', '#ffffff')
-      .style('stroke','#ffffff')
-      .style('stroke-width', strokeWidth)
-      .style('stroke-linejoin', 'round')
-      .style('opacity', 1);
+var svg = d3.select("body").append("svg")
+   .attr("width", 960)
+   .attr("height", 600);
 
-}
+var tickDuration = 1000;
 
-var tickDuration = 500;
-var top_n = 10;
+var top_n = 12;
 var height = 600;
 var width = 960;
 
@@ -178,60 +167,42 @@ const margin = {
 };
 
 let barPadding = (height-(margin.bottom+margin.top))/(top_n*5);
-console.log('barPadding', barPadding);
-var svg = d3.select("body").append("svg")
-   .attr("width", width)
-   .attr("height", height)
-   .style("border", "1px solid silver")
-   .style("padding", "20px")
-   .style("margin", "0px");
 
-/* Title */
 let logo = svg.append('image')
    .attr('width', 30)
    .attr('height', 30)
-   .attr('x', barPadding)
+   .attr('x', 0)
    .attr('y', 0)
    .attr('href', 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Robot_Operating_System_logo.svg/600px-Robot_Operating_System_logo.svg.png');
 
 let title = svg.append('text')
    .attr('class', 'title')
-   .attr('x', 40 + barPadding)
-   .attr('y', 26) 
-   .html('Title');
+   .attr('x', 33)
+   .attr('y', 26)
+   .html('ROS distros');
 
 let subTitle = svg.append("text")
    .attr("class", "subTitle")
    .attr("y", 55)
-   .html("Subtitle Here");
+   .html("Total rosdistro commits");
 
-/* End Title */
-const logo2 = svg.append('image')
-      .attr('class', 'logo')
-      .attr('x', width-margin.right-10)
-      .attr('y', height-75)
-      .attr('height', 200)
-      .attr('width',  150)
-      .attr('transform', 'translate(-150,-200)')
-      .attr("xlink:href", "//upload.wikimedia.org/wikipedia/en/thumb/6/67/2018_FIFA_World_Cup.svg/227px-2018_FIFA_World_Cup.svg.png" );
-      ;
 let caption = svg.append('text')
    .attr('class', 'caption')
    .attr('x', width)
-   .attr('y', height)
+   .attr('y', height-3)
    .style('text-anchor', 'end')
    .html('Source: https://github.com/ros/rosdistro/');
 
-let year_number = 2014;
+let year_number = 2012;
 let month_number = 1;
 let year = month_decimal(year_number, month_number)
-console.log(year);
 
 d3.csv('race.csv').then(function(data) {
    //if (error) throw error;
 
    console.log(data);
-   /* Data Transformation */
+   
+
    data.forEach(d => {
       d.value = +d.value,
       d.lastValue = +d.lastValue,
@@ -240,25 +211,17 @@ d3.csv('race.csv').then(function(data) {
       d.colour = d3.hsl(distro_color(d.name)),
       d.prettyName = d.name.charAt(0).toUpperCase() + d.name.slice(1)
    });
- 
-   
-   //let rowConfig = data.filter(d => d.year == year && !isNaN(d.value))
-   var rowConfig = data.map(d => {r = {}; r = {name: d.name, value: d.value} ; return r});
-   var reduceRow = rowConfig.reduce((acc, act) =>  acc + act.value, 0);
-   let rowConfig2 = data.filter(d => d.year == year && !isNaN(d.value))
-      .sort((a,b) => Math.random()-0.5)
-      .slice(0, 12);      
-      rowConfig2.forEach((d,i) => d.rank = i)     
-   console.log("rowConfig", reduceRow, rowConfig);
-   /* End data Transformation */ 
 
-   console.log(data);  
+   console.log(data);
 
    let yearSlice = data.filter(d => d.year == year && !isNaN(d.value))
       .sort((a,b) => b.value - a.value)
       .slice(0, top_n);
 
    yearSlice.forEach((d,i) => d.rank = i);
+
+   console.log('yearSlice: ', yearSlice)
+   console.log('max: ', d3.max(yearSlice, d => d.value))
 
    let x = d3.scaleLinear()
       .domain([0, d3.max(yearSlice, d => d.value)])
@@ -272,7 +235,6 @@ d3.csv('race.csv').then(function(data) {
       .scale(x)
       .ticks(width > 500 ? 5:2)
       .tickSize(-(height-margin.top-margin.bottom))
-      .tickSize(-(height-margin.top-margin.bottom))
       .tickFormat(d => d3.format(',')(d));
 
    svg.append('g')
@@ -285,10 +247,10 @@ d3.csv('race.csv').then(function(data) {
    svg.selectAll('rect.bar')
       .data(yearSlice, d => d.name)
       .enter()
-      .append('rect') 
+      .append('rect')
       .attr('class', 'bar')
       .attr('x', x(0)+1)
-      //.attr('width', d => x(d.value)-x(0)-1)
+      .attr('width', d => x(d.value)-x(0)-1)
       .attr('y', d => y(d.rank)+5)
       .attr('height', y(1)-y(0)-barPadding)
       .style('fill', d => d.colour);
@@ -333,7 +295,7 @@ d3.csv('race.csv').then(function(data) {
       .attr('y', height-30)
       .style('text-anchor', 'end')
       .html(~~year)
-      .call(halo, 20);
+      .call(halo, 10);
 
    let ticker = d3.interval(e => {
 
@@ -518,6 +480,15 @@ d3.csv('race.csv').then(function(data) {
 
 });
 
+const halo = function(text, strokeWidth) {
+   text.select(function() { return this.parentNode.insertBefore(this.cloneNode(true), this); })
+      .style('fill', '#ffffff')
+      .style('stroke','#ffffff')
+      .style('stroke-width', strokeWidth)
+      .style('stroke-linejoin', 'round')
+      .style('opacity', 0.5);
+
+}
 
 
    </script>
