@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<html>
 <head>
    <meta charset="utf-8">
    <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -69,486 +69,203 @@
    }
    </style>
 </head>
-
 <body>
-   <script type="module">
-      import {zeetha_barchartrace } from './z_barchartrace.js';
-      //zeetha_barchartrace("body");
-
-
-/* Supporting Functions */
-
-function distro_color(distro)
-{
-  if (distro === 'fuerte')
-    return '#be6d7e'
-  if (distro === 'groovy')
-    return '#e13176'
-  if (distro === 'hydro')
-    return '#1eb4c7'
-  if (distro === 'indigo')
-    return '#051a3a'
-  if (distro === 'jade')
-    return '#00a368'
-  if (distro === 'kinetic')
-    return '#000000'
-  if (distro === 'lunar')
-    return '#676767'
-  if (distro === 'melodic')
-    return '#5782b8'
-  if (distro === 'noetic')
-    return '#ffffff'
-  if (distro === 'ardent')
-    return '#005703'
-  if (distro === 'bouncy')
-    return '#505050'
-  if (distro === 'crystal')
-    return '#4e3a7b'
-  if (distro === 'dashing')
-    return '#47bfc4'
-  if (distro === 'eloquent')
-    return '#228b22'
-  if (distro === 'foxy')
-    return '#000000'
-}
-
-var months = [
-  "Jan",
-  "Feb",
-  "Mar",
-  "Apr",
-  "May",
-  "Jun",
-  "Jul",
-  "Aug",
-  "Sep",
-  "Oct",
-  "Nov",
-  "Dec"
-];
-
-function distro_turtle(distro)
-{
-  if (distro === 'fuerte' ||
-      distro === 'groovy' ||
-      distro === 'hydro' ||
-      distro === 'indigo' ||
-      distro === 'jade' ||
-      distro === 'kinetic' ||
-      distro === 'lunar' ||
-      distro === 'melodic')
-  {
-    return 'https://raw.githubusercontent.com/ros/ros_tutorials/melodic-devel/turtlesim/images/'
-           + distro + '.png';
-  }
-
-  if (distro === 'ardent' ||
-      distro === 'bouncy' ||
-      distro === 'crystal' ||
-      distro === 'dashing' ||
-      distro === 'eloquent')
-  {
-    return 'https://raw.githubusercontent.com/ros/ros_tutorials/eloquent-devel/turtlesim/images/'
-           + distro + '.png';
-  }
-}
-
-function month_decimal(year, month)
-{
-  return Math.floor(100*(year + month / 12))/100
-}
-
-const halo = function(text, strokeWidth) {
-   text.select(function() { return this.parentNode.insertBefore(this.cloneNode(true), this); })
-      .style('fill', '#ffffff')
-      .style('stroke','#ffffff')
-      .style('stroke-width', strokeWidth)
-      .style('stroke-linejoin', 'round')
-      .style('opacity', 1);
-
-}
-
-var tickDuration = 250;
-var top_n = 10;
-var height = 600;
-var width = 960;
-
-const margin = {
-   top: 80,
-   right: 0,
-   bottom: 5,
-   left: 60
-};
-
-let barPadding = (height-(margin.bottom+margin.top))/(top_n*5);
-//console.log('barPadding', barPadding);
-var svg = d3.select("body").append("svg")
-   .attr("width", width)
-   .attr("height", height)
-   .style("border", "1px solid silver")
-   .style("padding", "20px")
-   .style("margin", "0px");
-
-/* Title */
-let logo = svg.append('image')
-   .attr('width', 30)
-   .attr('height', 30)
-   .attr('x', barPadding)
-   .attr('y', 0)
-   .attr('href', 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Robot_Operating_System_logo.svg/600px-Robot_Operating_System_logo.svg.png');
-
-let title = svg.append('text')
-   .attr('class', 'title')
-   .attr('x', 40 + barPadding)
-   .attr('y', 26) 
-   .html('Title');
-
-let subTitle = svg.append("text")
-   .attr("class", "subTitle")
-   .attr("y", 55)
-   .html("Subtitle Here");
-
-/* End Title */
-const logo2 = svg.append('image')
-      .attr('class', 'logo')
-      .attr('x', width-margin.right-10)
-      .attr('y', height-75)
-      .attr('height', 200)
-      .attr('width',  150)
-      .attr('transform', 'translate(-150,-200)')
-      .attr("xlink:href", "//upload.wikimedia.org/wikipedia/en/thumb/6/67/2018_FIFA_World_Cup.svg/227px-2018_FIFA_World_Cup.svg.png" );
-      ;
-let caption = svg.append('text')
-   .attr('class', 'caption')
-   .attr('x', width)
-   .attr('y', height)
-   .style('text-anchor', 'end')
-   .html('Source: https://github.com/ros/rosdistro/');
-
-let year_number = 2016;
-let month_number = 1;
-let year = month_decimal(year_number, month_number)
-console.log(year);
-
-d3.csv('race.csv').then(function(data) {
-   //if (error) throw error;
-   const _data = {};
-   _data.settings = {
-      top_n:         top_n,
-      height:        height,
-      width:         width,
-      margin:        margin,      
-   };
-   _data.settings.barPadding   = (height-(margin.bottom+margin.top))/(top_n*5)
-   _data.settings.tickDuration = (typeof tickDuration !== 'undefined') ?  tickDuration : 1000;
-   
-   /* Data Transformation */
-   data.forEach(d => {
-      d.value = +d.value,
-      d.lastValue = +d.lastValue,
-      d.value = isNaN(d.value) ? 0 : d.value,
-      d.year = +d.year
-      //d.colour = d3.hsl(distro_color(d.name)),
-      //d.prettyName = d.name.charAt(0).toUpperCase() + d.name.slice(1)
-   });
- 
-   
-   //let rowConfig = data.filter(d => d.year == year && !isNaN(d.value))
-   var rowConfig = data
-      .map(d => {let r = {}; r = {'name': d.name, 'value': d.value, 'colour': d3.hsl(distro_color(d.name)) } ; return r})
-      .reduce((acc, act) =>  {
-         const index = acc.map(d => d.name).indexOf(act.name);
-         if(index > -1) acc[index].value += act.value;
-         else           acc.push({'name': act.name, 'colour': act.colour, 'value': act.value});         
-         return acc;
-      }, [])
-      .sort((a,b) => b.value - a.value)
-      ;
-
-      rowConfig.forEach((d,i) => {d.value = 1; d.rank = i+1;});
-
-      _data.row_settings = rowConfig;
-      _data.columns      = data;
-      console.log(_data);
-   
-   /* End data Transformation */ 
-   doItAll(_data);
-});
-
-function doItAll(data) {
-   console.log(data);
-   const _data = data;
-   console.log("DoItAll");
-   console.log(_data, data);
-   
-   console.log("Margin", _data.settings.margin);
-   
-   /* Axis and other basic chart stuffs */
-   let x = d3.scaleLinear()
-      //.domain([0, d3.max(_data.row_settings, d => d.value)])
-      .range([_data.settings.margin.left, _data.settings.width-_data.settings.margin.right-65]);
-
-   let y = d3.scaleLinear()
-      .domain([_data.settings.top_n, 0])
-      .range([_data.settings.height-_data.settings.margin.bottom, _data.settings.margin.top]);
-
-   let xAxis = d3.axisTop()
-      .scale(x)
-      .ticks(_data.settings.width > 500 ? 5:2)
-      .tickSize(-(_data.settings.height-margin.top-_data.settings.margin.bottom))
-      .tickSize(-(_data.settings.height-margin.top-_data.settings.margin.bottom))
-      .tickFormat(d => d3.format(',')(d));
-
-   svg.append('g')
-      .attr('class', 'axis xAxis')
-      .attr('transform', `translate(0, ${_data.settings.margin.top})`)
-      .call(xAxis)
-      .selectAll('.tick line')
-      .classed('origin', d => d == 0);
-
-   svg.selectAll('rect.bar')
-      .data(_data.row_settings, d => d.name)
-      .enter()
-      .append('rect') 
-      .attr('class', 'bar')
-      .attr('x', x(0)+1)
-      //.attr('width', d => x(d.value)-x(0)-1)
-      .attr('width', 0)
-      .attr('y', d => y(d.rank)+5)
-      .attr('height', y(1)-y(0)-_data.settings.barPadding)
-      .style('fill', d => d.colour);
-
-   svg.selectAll('text.label')
-      .data(_data.row_settings, d => d.name)
-      .enter()
-      .append('text')
-      .attr('class', 'label')
-      .attr('x', d => x(d.value)-8)
-      .attr('y', d => y(d.rank)+5+((y(1)-y(0))/2)-8)
-      .style('text-anchor', 'end')
-      .html(d => d.name);
-
-   svg.selectAll('image.bar_icon')
-      .data(_data.row_settings, d => d.name)
-      .enter()
-      .append("svg:image")
-      .attr('class', 'bar_icon')
-      .attr('width', 30)
-      .attr('height', 30)
-      //.attr('x', d => x(d.value)+30)
-      //.attr('y', d => y(d.rank)+8)
-      .attr('x', d => +30)
-      .attr('y', d => y(d.rank)+8)
-      .attr('transform', d => 'rotate(90, ' +
-                              (_data.settings.margin.left+30).toString() + ', ' +
-                              (y(d.rank)+8).toString() + ')')
-      .attr('href', d => distro_turtle(d.name));
-      
-   svg.selectAll('text.valueLabel')
-      .data(_data.row_settings, d => d.name)
-      .enter()
-      .append('text')
-      .attr('class', 'valueLabel')
-      .attr('x', d => x(d.value)-8)
-      .attr('y', d => y(d.rank)+5+((y(1)-y(0))/2)+8)
-      .style('text-anchor', 'end')
-      //.text(d => d3.format(',.0f')(d.lastValue));
-
-   let yearText = svg.append('text')
-      .attr('class', 'yearText')
-      .attr('x', _data.settings.width-_data.settings.margin.right)
-      .attr('y', _data.settings.height-30)
-      .style('text-anchor', 'end')
-      .html(~~year)
-      .call(halo, 20);
-   
-   let ticker = d3.interval(e => {
-
-      let column_slice = _data.columns.filter(d => d.year == year && !isNaN(d.value))
-         .sort((a,b) => b.value - a.value)
-         .slice(0,top_n);
-
-      column_slice.forEach((d,i) => d.rank = i);
-
-      // console.log('year: ', year, ' IntervalYear: ', yearSlice);
-
-      x.domain([0, d3.max(column_slice, d => d.value)]);
-
-      svg.select('.xAxis')
-         .transition()
-         .duration(_data.settings.tickDuration)
-         .ease(d3.easeLinear)
-         .call(xAxis);
-
-      let bars = svg.selectAll('.bar').data(column_slice, d => d.name);
-
-      bars
-         .enter()
-         .append('rect')
-         .attr('class', d => `bar ${d.name.replace(/\s/g,'_')}`)
-         .attr('x', x(0)+1)
-         .attr( 'width', d => x(d.value)-x(0)-1)
-         .attr('y', d => y(top_n+1)+5)
-         .attr('height', y(1)-y(0)-barPadding)
-         .style('fill', d => d.colour)
-         .transition()
-         .duration(_data.settings.tickDuration)
-         .ease(d3.easeLinear)
-         .attr('y', d => y(d.rank)+5);
-
-      bars
-         .transition()
-         .duration(_data.settings.tickDuration)
-         .ease(d3.easeLinear)
-         .attr('width', d => x(d.value)-x(0)-1)
-         .attr('y', d => y(d.rank)+5);
-
-      bars
-         .exit()
-         .transition()
-         .duration(_data.settings.tickDuration)
-         .ease(d3.easeLinear)
-         .attr('width', d => x(d.value)-x(0)-1)
-         .attr('y', d => y(top_n+1)+5)
-         .remove();
-
-      let labels = svg.selectAll('.label')
-         .data(column_slice, d => d.name);
-
-      labels
-         .enter()
-         .append('text')
-         .attr('class', 'label')
-         .attr('x', d => x(d.value)-8)
-         .attr('y', d => y(top_n+1)+5+((y(1)-y(0))/2))
-         .style('text-anchor', 'end')
-         .html(d => d.prettyName)
-         .transition()
-         .duration(_data.settings.tickDuration)
-         .ease(d3.easeLinear)
-         .attr('y', d => y(d.rank)+5+((y(1)-y(0))/2)-8)
-
-      labels
-         .transition()
-         .duration(_data.settings.tickDuration)
-         .ease(d3.easeLinear)
-         .attr('x', d => x(d.value)-8)
-         .attr('y', d => y(d.rank)+5+((y(1)-y(0))/2)-8)
-         .style('fill', d => (d.value == 0 || x(d.value) > 120) ? '#ffffff' : '#cccccc')
-
-      labels
-         .exit()
-         .transition()
-         .duration(_data.settings.tickDuration)
-         .ease(d3.easeLinear)
-         .attr('x', d => x(d.value)-8)
-         .attr('y', d => y(top_n+1)+5)
-         .remove();
-
-      let valueLabels = svg.selectAll('.valueLabel').data(column_slice, d => d.name);
-
-      valueLabels
-         .enter()
-         .append('text')
-         .attr('class', 'valueLabel')
-         .attr('x', d => x(d.value)-8)
-         .attr('y', d => y(top_n+1)+8)
-         .text(d => d3.format(',.0f')(d.lastValue))
-         .style('text-anchor', 'end')
-         .transition()
-         .duration(_data.settings.tickDuration)
-         .ease(d3.easeLinear)
-         .attr('y', d => y(d.rank)+5+((y(1)-y(0))/2)+1);
-
-      valueLabels
-         .transition()
-         .duration(_data.settings.tickDuration)
-         .ease(d3.easeLinear)
-         .attr('x', d => x(d.value)-8)
-         .attr('y', d => y(d.rank)+5+((y(1)-y(0))/2)+8)
-         .style('fill', d => (d.value == 0 || x(d.value) > 120) ? '#ffffff' : '#cccccc')
-         .tween("text", function(d) {
-            let i = d3.interpolateRound(d.lastValue, d.value);
-            return function(t) {
-               this.textContent = d3.format(',')(i(t));
-            };
-         });
-
-      valueLabels
-         .exit()
-         .transition()
-         .duration(_data.settings.tickDuration)
-         .ease(d3.easeLinear)
-         .attr('x', d => x(d.value)-8)
-         .attr('y', d => y(top_n+1)+8)
-         .remove();
-
-      let bar_icon = svg.selectAll('.bar_icon').data(column_slice, d => d.name);
-
-      bar_icon
-         .enter()
-         .append("svg:image")
-         .attr('width', 30)
-         .attr('height', 30)
-         .attr('href', d => distro_turtle(d.name))
-         .attr('class', 'bar_icon')
-         .attr('x', d => x(d.value)+30)
-         .attr('y', d => y(top_n+1)+10)
-         .attr('transform', d => 'rotate(90, ' +
-                                 (x(d.value)+30).toString() + ', ' +
-                                 (y(d.rank)+8).toString() + ')')
-         .text(d => d3.format(',.0f')(d.lastValue))
-         .transition()
-         .duration(_data.settings.tickDuration)
-         .ease(d3.easeLinear)
-         .attr('y', d => y(d.rank)+8);
-
-      bar_icon
-         .transition()
-         .duration(_data.settings.tickDuration)
-         .ease(d3.easeLinear)
-         .attr('x', d => x(d.value)+30)
-         .attr('y', d => y(d.rank)+8)
-         .attr('transform', d => 'rotate(90, ' +
-                                 (x(d.value)+30).toString() + ', ' +
-                                 (y(d.rank)+8).toString() + ')')
-
-      bar_icon
-         .exit()
-         .transition()
-         .duration(_data.settings.tickDuration)
-         .ease(d3.easeLinear)
-         .attr('x', d => x(d.value)+30)
-         .attr('y', d => y(top_n+1)+10)
-         .attr('transform', d => 'rotate(90, ' +
-                                 (x(d.value)+30).toString() + ', ' +
-                                 (y(d.rank)+8).toString() + ')')
-         .remove();
-
-      yearText.html(months[month_number-1] + ' ' + year_number);
-
-      if(year == 2020)
-        ticker.stop();
-
-      if (month_number < 12)
-      {
-        month_number += 1;
-      }
-      else
-      {
-        month_number = 1
-        year_number += 1
-      }
-
-      year = month_decimal(year_number, month_number);
-   }, _data.settings.tickDuration);
-};
-
-
-
-   </script>
-<p class="forkme">
-  <a target="_blenk" href="https://github.com/chapulina/ros-bar-chart-race">🍴 Fork me!</a>
-</p>
+   <div id="chartPlaceholder"></div>
+   <p class="forkme">
+      <a target="_blenk" href="https://github.com/lucianomcsilva/zeetha-bar-chart-race">🍴 Fork me!</a>
+   </p>   
 </body>
+<script type="module">
+   /* Supporting Functions */
+   
+   function distro_color(distro)
+   {
+     if (distro === 'fuerte')
+       return '#be6d7e'
+     if (distro === 'groovy')
+       return '#e13176'
+     if (distro === 'hydro')
+       return '#1eb4c7'
+     if (distro === 'indigo')
+       return '#051a3a'
+     if (distro === 'jade')
+       return '#00a368'
+     if (distro === 'kinetic')
+       return '#000000'
+     if (distro === 'lunar')
+       return '#676767'
+     if (distro === 'melodic')
+       return '#5782b8'
+     if (distro === 'noetic')
+       return '#ffffff'
+     if (distro === 'ardent')
+       return '#005703'
+     if (distro === 'bouncy')
+       return '#505050'
+     if (distro === 'crystal')
+       return '#4e3a7b'
+     if (distro === 'dashing')
+       return '#47bfc4'
+     if (distro === 'eloquent')
+       return '#228b22'
+     if (distro === 'foxy')
+       return '#000000'
+   }
+   
+   var months = [
+     "Jan",
+     "Feb",
+     "Mar",
+     "Apr",
+     "May",
+     "Jun",
+     "Jul",
+     "Aug",
+     "Sep",
+     "Oct",
+     "Nov",
+     "Dec"
+   ];
+   
+   function distro_turtle(distro)
+   {
+     if (distro === 'fuerte' ||
+         distro === 'groovy' ||
+         distro === 'hydro' ||
+         distro === 'indigo' ||
+         distro === 'jade' ||
+         distro === 'kinetic' ||
+         distro === 'lunar' ||
+         distro === 'melodic')
+     {
+       return 'https://raw.githubusercontent.com/ros/ros_tutorials/melodic-devel/turtlesim/images/'
+              + distro + '.png';
+     }
+   
+     if (distro === 'ardent' ||
+         distro === 'bouncy' ||
+         distro === 'crystal' ||
+         distro === 'dashing' ||
+         distro === 'eloquent')
+     {
+       return 'https://raw.githubusercontent.com/ros/ros_tutorials/eloquent-devel/turtlesim/images/'
+              + distro + '.png';
+     }
+   }
+   
+   function month_decimal(year, month)
+   {
+     return Math.floor(100*(year + month / 12))/100
+   }
+   
+   var loadCSV = async function() {
+      let data = await d3.csv('race.csv'); 
+      
+      /* Data Transformation */
+      /* Fixing Not Avaiable values for*/
+      data.forEach(d => {
+         d.value = +d.value,
+         d.lastValue = +d.lastValue,
+         d.value = isNaN(d.value) ? 0 : d.value,
+         d.year = +d.year
+      });
+    
+      var rowConfig = data
+         .map(d => {let r = {}; r = {
+                                    'name': d.name, 
+                                    'value': d.value, 
+                                    'icon': distro_turtle(d.name),  
+                                    'colour': d3.hsl(distro_color(d.name)) 
+                                 } ; 
+            return r})
+         .reduce((acc, act) =>  {
+            const index = acc.map(d => d.name).indexOf(act.name);
+            if(index > -1) acc[index].value += act.value;
+            else           acc.push({'name': act.name, 'colour': act.colour, 'value': act.value, 'icon': act.icon});         
+            return acc;
+         }, []);
 
+         var column_settings = data
+         .map(d => {let r = {}; 
+                     let month_number = Math.round((d.year % 1 * 100) / (100/12)) - 1;
+                     month_number = month_number == -1 ? 11 : month_number;
+                        r = {
+                           'column_id': d.year, 
+                           'year_number': Math.floor(d.year - 0.0001),
+                           'month_number': month_number,                                    
+                           'month_string': months[month_number],
+                           'display_name': months[month_number] + " " + Math.floor(d.year - 0.0001), 
+                        } ; 
+            return r})         
+         .reduce((acc, act) =>  {
+            //de dup
+            const index = acc.map(d => d.column_id).indexOf(act.column_id);
+            if(index == -1) acc.push(act);
+            return acc;
+         }, []);;      
+   
+         rowConfig.forEach((d,i) => {d.value = 1; d.rank = i+1;});
+      
+      /* End data Transformation */ 
+      return {'data': data, 'row_settings': rowConfig, 'column_settings': column_settings};
+   }
+   
+   var loadFifaJson = async function() {
+      let response = await fetch('formated.json');
+      let response2 = await fetch('wiki-fwc.json');
+      
+      let data = await response.json();
+      let columns = await response2.json();
+      var row_settings = data
+         .map(d => {let r = {}; r = {
+                                    'name': d.name, 
+                                    'row_id': d.name,
+                                    'icon': d.img,  
+                                    'colour': d3.hsl(Math.random()*360,0.75,0.75) 
+                                 } ; 
+            return r})
+         .reduce((acc, act) =>  {
+            //de dup
+            const index = acc.map(d => d.row_id).indexOf(act.row_id);
+            if(index == -1) acc.push(act);
+            return acc;
+         }, []);    
+
+                  
+      var column_settings = Object.values(columns.hosts)
+         .map(d => { return {
+                              'display_name': d._year + ' ' + d._host, 
+                              'column_id': +d._year,
+                              'img':  d._logo
+                           }
+         })
+         .filter(d => d.column_id <= 2018);   
+
+      //Override data.
+      let data2 = data.map(d => {let r = {}; r.value = d.value; r.column_id = d.year; r.row_id = d.name; return r;});
+
+      return {'data': data2, 'row_settings': row_settings, 'column_settings': column_settings};
+   }      
+   
+   import {zeetha_barchartrace } from './z_barchartrace.js';
+   (async() => {
+      
+      let zbcr = new zeetha_barchartrace("chartPlaceholder", {tickDuration: 1000, width:900, height:600});      
+      let obj_csv_distros = await loadCSV();
+      zbcr.load_rows(obj_csv_distros.row_settings, "name");
+      zbcr.load_columns(obj_csv_distros.column_settings);
+      zbcr.load_data(obj_csv_distros.data, {'row_id': 'name', 'column_id': 'year'});
+      zbcr.run();
+      
+      let obj_json_fifa = await loadFifaJson();
+      console.log(obj_json_fifa);
+      let zbcr2 = new zeetha_barchartrace("chartPlaceholder", {tickDuration: 3000, width:900, height:600});      
+      zbcr2.load_rows(obj_json_fifa.row_settings);
+      zbcr2.load_columns(obj_json_fifa.column_settings);
+      zbcr2.load_data(obj_json_fifa.data);
+      zbcr2.run();
+
+      //console.log(zbcr);
+   })();
+</script>
+</html>
